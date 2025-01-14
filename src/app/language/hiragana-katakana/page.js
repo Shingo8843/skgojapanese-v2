@@ -9,7 +9,7 @@ export default function HiraganaKatakana() {
   const [modalVisible, setModalVisible] = useState(false);
   const [modalContent, setModalContent] = useState({ image: "", audio: "" });
 
-  const { hiragana, katakana } = kanaData;
+  const { hiragana, katakana } = kanaData[0];
 
   const showModal = (animated, audio) => {
     setModalContent({ image: animated, audio });
@@ -22,10 +22,11 @@ export default function HiraganaKatakana() {
 
   return (
     <main className="p-4 sm:p-6 lg:p-8">
-      <h1 className="text-3xl font-bold mb-6 text-center">Hiragana & Katakana</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center p-4 sm:text-6xl lg:text-8xl">Hiragana & Katakana</h1>
       <p className="mb-8 text-gray-700 text-center">
         Welcome to the Hiragana & Katakana section! Click on a character to see the stroke order and hear its pronunciation.
       </p>
+      <h2 className="text-5xl font-bold mb-4 text-center sm:pt-8 lg:pt-16">Hiragana</h2>
       <div className="grid grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
         {hiragana.map((item, index) => (
           <div
@@ -38,8 +39,8 @@ export default function HiraganaKatakana() {
             </h2>
             <div className="relative w-full aspect-square">
               <Image
-                src={item.image}
-                alt={item.title}
+                src={item.static ||  "/placeholder.jpg"}
+                alt={item.title || "Hiragana Character"}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="rounded object-contain"
@@ -48,6 +49,7 @@ export default function HiraganaKatakana() {
           </div>
         ))}
       </div>
+      <h2 className="text-5xl font-bold mb-4 text-center p-4 pt-16">Katakana</h2>
       <div className="grid grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
         {katakana.map((item, index) => (
           <div
@@ -60,8 +62,8 @@ export default function HiraganaKatakana() {
             </h2>
             <div className="relative w-full aspect-square">
               <Image
-                src={item.image}
-                alt={item.title}
+                src={item.static || "/placeholder.jpg"}
+                alt={item.title || "Katakana Character"}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="rounded object-contain"

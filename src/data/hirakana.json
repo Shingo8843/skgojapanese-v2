@@ -218,10 +218,22 @@
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/や.wav"
             },
             {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
+            },
+            {
                 "title": "YU",
                 "static": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Static/ゆ.gif",
                 "animated": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Animated/ゆ.gif",
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/ゆ.wav"
+            },
+            {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
             },
             {
                 "title": "YO",
@@ -266,10 +278,22 @@
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/わ.wav"
             },
             {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
+            },
+            {
                 "title": "WO",
                 "static": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Static/を.gif",
                 "animated": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Animated/を.gif",
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/を.wav"
+            },
+            {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
             },
             {
                 "title": "NN",
@@ -277,9 +301,7 @@
                 "animated": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Animated/ん.gif",
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/ん.wav"
             }
-        ]
-    },
-    {
+        ], 
         "katakana": [
             {
                 "title": "A",
@@ -498,10 +520,22 @@
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/や.wav"
             },
             {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
+              },
+            {
                 "title": "YU",
                 "static": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/katakana/Static/ユ.gif",
                 "animated": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/katakana/Animated/ユ.gif",
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/ゆ.wav"
+            },
+            {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
             },
             {
                 "title": "YO",
@@ -546,10 +580,22 @@
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/わ.wav"
             },
             {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
+            },
+            {
                 "title": "WO",
                 "static": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/katakana/Static/ヲ.gif",
                 "animated": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/katakana/Animated/ヲ.gif",
                 "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/hiragana/Voice/を.wav"
+            },
+            {
+                "title": null,
+                "static": null,
+                "animated": null,
+                "audio": null
             },
             {
                 "title": "NN",
