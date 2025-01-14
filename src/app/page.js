@@ -6,25 +6,25 @@ export default function LandingPage() {
       title: 'Language',
       description: 'Learn Japanese vocabulary and grammar.',
       href: '/language',
-      image: '/images/language.jpg',
+      image: '/images/books.png',
     },
     {
       title: 'Games',
       description: 'Interactive games to practice Japanese.',
       href: '/games',
-      image: '/images/games.jpg',
+      image: '/images/card-games.png',
     },
     {
       title: 'Culture',
       description: 'Discover Japanese culture and traditions.',
       href: '/culture',
-      image: '/images/culture.jpg',
+      image: '/images/temple.png',
     },
     {
       title: 'Pop Culture',
       description: 'Explore anime and modern Japanese pop culture.',
       href: '/pop-culture',
-      image: '/images/pop-culture.jpg',
+      image: '/images/demonslayer.jpg',
     },
   ];
 
