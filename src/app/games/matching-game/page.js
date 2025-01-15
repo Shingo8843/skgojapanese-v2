@@ -1,11 +1,24 @@
 "use client";
 
-export default function MatchingGame() {
+import Link from "next/link";
+import data from "@/data/vocabulary.json"; // JSON file path
+import Card from "@/components/Card";
+
+export default function MatchingGamePage() {
   return (
     <main className="p-8">
-      <h1 className="text-2xl font-bold mb-4">Matching Game</h1>
-      <p>Welcome to the Matching Game! Start playing and improve your memory skills.</p>
-      {/* Add game logic and components here */}
+      <h1 className="text-3xl font-bold mb-6">Matching Game Categories</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {data.map((category) => (
+          <Link key={category.name} href={`/games/matching-game/${category.name.toLowerCase()}`}>
+            <Card
+              title={category.name}
+              description="Click to explore"
+              image={category.image}
+            />
+          </Link>
+        ))}
+      </div>
     </main>
   );
 }

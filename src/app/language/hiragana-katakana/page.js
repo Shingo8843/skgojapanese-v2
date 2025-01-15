@@ -9,7 +9,7 @@ export default function HiraganaKatakana() {
   const [modalVisible, setModalVisible] = useState(false);
   const [modalContent, setModalContent] = useState({ image: "", audio: "" });
 
-  const { hiragana, katakana } = kanaData[0];
+  const { hiragana, katakana } = kanaData;
 
   const showModal = (animated, audio) => {
     setModalContent({ image: animated, audio });

@@ -1,0 +1,66 @@
+{
+    "Greetings": {
+      "description": "Learn common Japanese greetings.",
+      "image": "/images/greetings.jpg",
+      "alt": "Greetings category",
+      "expressions": [
+        {
+          "title": "こんにちは",
+          "explanation": "Hello or Good Afternoon.",
+          "image": "/images/hello.jpg",
+          "alt": "A friendly hello gesture",
+          "audioSrc": "/audio/kon-nichi-wa.mp3"
+        },
+        {
+          "title": "おはよう",
+          "explanation": "Good morning.",
+          "image": "/images/good-morning.jpg",
+          "alt": "A morning greeting gesture",
+          "audioSrc": "/audio/ohayo.mp3"
+        }
+      ]
+    },
+    "Thank Yous": {
+      "description": "Learn how to express gratitude in Japanese.",
+      "image": "/images/thank-you-category.jpg",
+      "alt": "Thank Yous category",
+      "expressions": [
+        {
+          "title": "ありがとう",
+          "explanation": "Thank you.",
+          "image": "/images/thank-you.jpg",
+          "alt": "Thank you gesture",
+          "audioSrc": "/audio/arigatou.mp3"
+        },
+        {
+          "title": "ありがとうございます",
+          "explanation": "Thank you very much (formal).",
+          "image": "/images/thank-you-formal.jpg",
+          "alt": "Formal thank you gesture",
+          "audioSrc": "/audio/arigatou-gozaimasu.mp3"
+        }
+      ]
+    },
+    "Apologies": {
+      "description": "Learn how to say sorry and excuse me in Japanese.",
+      "image": "/images/apologies.jpg",
+      "alt": "Apologies category",
+      "expressions": [
+        {
+          "title": "すみません",
+          "explanation": "Excuse me or Sorry.",
+          "image": "/images/excuse-me.jpg",
+          "alt": "Polite bowing gesture",
+          "audioSrc": "/audio/sumimasen.mp3"
+        },
+        {
+          "title": "ごめんなさい",
+          "explanation": "I'm sorry (casual).",
+          "image": "/images/sorry.jpg",
+          "alt": "Casual apology gesture",
+          "audioSrc": "/audio/gomennasai.mp3"
+        }
+      ]
+    }
+  }
+  

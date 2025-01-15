@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Animals",
+      "image": "/images/animals.png",
+      "items": [
+        {
+          "name": "Cat",
+          "img1": "/images/cat1.png",
+          "img2": "/images/cat2.png"
+        },
+        {
+          "name": "Dog",
+          "img1": "/images/dog1.png",
+          "img2": "/images/dog2.png"
+        },
+        {
+          "name": "Bird",
+          "img1": "/images/bird1.png",
+          "img2": "/images/bird2.png"
+        }
+      ]
+    },
+    {
+      "name": "Fruits",
+      "image": "/images/fruits.png",
+      "items": [
+        {
+          "name": "Apple",
+          "img1": "/images/apple1.png",
+          "img2": "/images/apple2.png"
+        },
+        {
+          "name": "Banana",
+          "img1": "/images/banana1.png",
+          "img2": "/images/banana2.png"
+        }
+      ]
+    }
+  ]
+  
