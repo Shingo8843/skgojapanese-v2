@@ -21,8 +21,8 @@ export default function CulturePage() {
       <p className="mb-6">{CultureSection.description}</p>
 
       {/* Render Categories */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {CultureSection.categories.map((category) => (
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
+      {CultureSection.categories.map((category) => (
           <Link
             key={category.name}
             href={`/culture/${category.name.toLowerCase()}`}

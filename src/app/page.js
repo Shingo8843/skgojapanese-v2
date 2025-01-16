@@ -29,17 +29,19 @@ export default function LandingPage() {
   ];
 
   return (
-    <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8">
-      {sections.map((section) => (
-        <Card
-          key={section.title}
-          title={section.title}
-          description={section.description}
-          href={section.href}
-          image={section.image}
-          alt={`${section.title} image`}
-        />
-      ))}
+    <main className="p-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
+        {sections.map((section) => (
+          <Card
+            key={section.title}
+            title={section.title}
+            description={section.description}
+            href={section.href}
+            image={section.image}
+            alt={`${section.title} image`}
+          />
+        ))}
+      </div>
     </main>
   );
 }

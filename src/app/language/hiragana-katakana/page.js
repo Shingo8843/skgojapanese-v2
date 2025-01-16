@@ -27,7 +27,7 @@ export default function HiraganaKatakana() {
         Welcome to the Hiragana & Katakana section! Click on a character to see the stroke order and hear its pronunciation.
       </p>
       <h2 className="text-5xl font-bold mb-4 text-center sm:pt-8 lg:pt-16">Hiragana</h2>
-      <div className="grid grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid grid-cols-5 gap-4 sm:gap-6 lg:gap-8 justify-items-center">
         {hiragana.map((item, index) => (
           <div
             key={index}
@@ -50,7 +50,7 @@ export default function HiraganaKatakana() {
         ))}
       </div>
       <h2 className="text-5xl font-bold mb-4 text-center p-4 pt-16">Katakana</h2>
-      <div className="grid grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid grid-cols-5 gap-4 sm:gap-6 lg:gap-8 justify-items-center">
         {katakana.map((item, index) => (
           <div
             key={index}

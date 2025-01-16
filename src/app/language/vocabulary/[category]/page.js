@@ -71,8 +71,8 @@ export default function CategoryPage({ params: paramsPromise }) {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {selectedCategory.items.map((item, index) => (
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
+      {selectedCategory.items.map((item, index) => (
           <FlippableCard
             key={index}
             frontImage={item.img1}

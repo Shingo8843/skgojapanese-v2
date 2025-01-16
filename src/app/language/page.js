@@ -25,8 +25,8 @@ export default function Language() {
       <p className="mb-6">{currentSection.description}</p>
 
       {/* Render Subsections */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {currentSection.subsections.map((sub) => (
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
+      {currentSection.subsections.map((sub) => (
           <Card
             key={sub.name}
             title={sub.name}

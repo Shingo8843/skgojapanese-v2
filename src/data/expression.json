@@ -1,9 +1,9 @@
-{
-    "Greetings": {
+[
+    {
+      "name": "Greetings",
       "description": "Learn common Japanese greetings.",
       "image": "/images/greetings.jpg",
-      "alt": "Greetings category",
-      "expressions": [
+      "items": [
         {
           "title": "こんにちは",
           "explanation": "Hello or Good Afternoon.",
@@ -20,11 +20,11 @@
         }
       ]
     },
-    "Thank Yous": {
+    {
+      "name": "Thank Yous",
       "description": "Learn how to express gratitude in Japanese.",
       "image": "/images/thank-you-category.jpg",
-      "alt": "Thank Yous category",
-      "expressions": [
+      "items": [
         {
           "title": "ありがとう",
           "explanation": "Thank you.",
@@ -41,11 +41,11 @@
         }
       ]
     },
-    "Apologies": {
+    {
+      "name": "Apologies",
       "description": "Learn how to say sorry and excuse me in Japanese.",
       "image": "/images/apologies.jpg",
-      "alt": "Apologies category",
-      "expressions": [
+      "items": [
         {
           "title": "すみません",
           "explanation": "Excuse me or Sorry.",
@@ -62,5 +62,4 @@
         }
       ]
     }
-  }
-  
+]

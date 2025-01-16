@@ -1,40 +1,968 @@
 [
-    {
-      "name": "Animals",
-      "image": "/images/animals.png",
+  {
+      "name": "Adjectives",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/あたらしい.png",
       "items": [
-        {
-          "name": "Cat",
-          "img1": "/images/cat1.png",
-          "img2": "/images/cat2.png"
-        },
-        {
-          "name": "Dog",
-          "img1": "/images/dog1.png",
-          "img2": "/images/dog2.png"
-        },
-        {
-          "name": "Bird",
-          "img1": "/images/bird1.png",
-          "img2": "/images/bird2.png"
-        }
+          {
+              "name": "あたらしい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/あたらしい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/あたらしい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/あたらしい.png"
+          },
+          {
+              "name": "あつい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/あつい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/あつい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/あつい.png"
+          },
+          {
+              "name": "うれしい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/うれしい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/うれしい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/うれしい.png"
+          },
+          {
+              "name": "おおきい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/おおきい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/おおきい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/おおきい.png"
+          },
+          {
+              "name": "おもしろい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/おもしろい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/おもしろい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/おもしろい.png"
+          },
+          {
+              "name": "かなしい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/かなしい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/かなしい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/かなしい.png"
+          },
+          {
+              "name": "こわい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/こわい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/こわい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/こわい.png"
+          },
+          {
+              "name": "さむい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/さむい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/さむい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/さむい.png"
+          },
+          {
+              "name": "ちいさい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/ちいさい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/ちいさい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/ちいさい.png"
+          },
+          {
+              "name": "ながい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/ながい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/ながい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/ながい.png"
+          },
+          {
+              "name": "ふるい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/ふるい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/ふるい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/ふるい.png"
+          },
+          {
+              "name": "みじかい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/みじかい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/audio/みじかい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/みじかい.png"
+          }
       ]
-    },
-    {
-      "name": "Fruits",
-      "image": "/images/fruits.png",
+  },
+  {
+      "name": "Animal",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/いぬ.png",
       "items": [
-        {
-          "name": "Apple",
-          "img1": "/images/apple1.png",
-          "img2": "/images/apple2.png"
-        },
-        {
-          "name": "Banana",
-          "img1": "/images/banana1.png",
-          "img2": "/images/banana2.png"
-        }
+          {
+              "name": "いぬ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/いぬ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/いぬ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/いぬ.png"
+          },
+          {
+              "name": "うさぎ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/うさぎ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/うさぎ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/うさぎ.png"
+          },
+          {
+              "name": "うし",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/うし.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/うし.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/うし.png"
+          },
+          {
+              "name": "うま",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/うま.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/うま.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/うま.png"
+          },
+          {
+              "name": "きりん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/きりん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/きりん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/きりん.png"
+          },
+          {
+              "name": "くま",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/くま.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/くま.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/くま.png"
+          },
+          {
+              "name": "さる",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/さる.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/さる.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/さる.png"
+          },
+          {
+              "name": "ぞう",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/ぞう.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/ぞう.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/ぞう.png"
+          },
+          {
+              "name": "とり",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/とり.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/とり.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/とり.png"
+          },
+          {
+              "name": "ねこ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/ねこ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/ねこ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/ねこ.png"
+          },
+          {
+              "name": "ねずみ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/ねずみ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/ねずみ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/ねずみ.png"
+          },
+          {
+              "name": "ぶた",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/ぶた.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/audio/ぶた.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/match/ぶた.png"
+          }
       ]
-    }
-  ]
-  
+  },
+  {
+      "name": "Body",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/あし.png",
+      "items": [
+          {
+              "name": "あし",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/あし.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/あし.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/あし.png"
+          },
+          {
+              "name": "うで",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/うで.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/うで.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/うで.png"
+          },
+          {
+              "name": "かお",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/かお.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/かお.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/かお.png"
+          },
+          {
+              "name": "かみ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/かみ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/かみ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/かみ.png"
+          },
+          {
+              "name": "からだ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/からだ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/からだ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/からだ.png"
+          },
+          {
+              "name": "くち",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/くち.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/くち.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/くち.png"
+          },
+          {
+              "name": "て",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/て.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/て.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/て.png"
+          },
+          {
+              "name": "は",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/は.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/は.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/は.png"
+          },
+          {
+              "name": "はな",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/はな.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/はな.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/はな.png"
+          },
+          {
+              "name": "みみ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/みみ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/みみ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/みみ.png"
+          },
+          {
+              "name": "め",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/め.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/め.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/め.png"
+          },
+          {
+              "name": "ゆび",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/ゆび.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/audio/ゆび.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/ゆび.png"
+          }
+      ]
+  },
+  {
+      "name": "Color",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/あお.png",
+      "items": [
+          {
+              "name": "あお",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/あお.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/あお.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/あお.png"
+          },
+          {
+              "name": "あか",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/あか.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/あか.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/あか.png"
+          },
+          {
+              "name": "きいろ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/きいろ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/きいろ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/きいろ.png"
+          },
+          {
+              "name": "くろ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/くろ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/くろ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/くろ.png"
+          },
+          {
+              "name": "さんかく",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/さんかく.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/さんかく.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/さんかく.png"
+          },
+          {
+              "name": "しかく",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/しかく.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/しかく.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/しかく.png"
+          },
+          {
+              "name": "しろ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/しろ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/しろ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/しろ.png"
+          },
+          {
+              "name": "ちゃいろ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/ちゃいろ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/ちゃいろ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/ちゃいろ.png"
+          },
+          {
+              "name": "まる",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/まる.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/まる.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/まる.png"
+          },
+          {
+              "name": "みずいろ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/みずいろ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/みずいろ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/みずいろ.png"
+          },
+          {
+              "name": "みどり",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/みどり.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/みどり.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/みどり.png"
+          },
+          {
+              "name": "むらさき",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/むらさき.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/audio/むらさき.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/むらさき.png"
+          }
+      ]
+  },
+  {
+      "name": "Food",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/おちゃ.png",
+      "items": [
+          {
+              "name": "おちゃ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/おちゃ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/おちゃ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/おちゃ.png"
+          },
+          {
+              "name": "おにぎり",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/おにぎり.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/おにぎり.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/おにぎり.png"
+          },
+          {
+              "name": "ぎゅうにゅう",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/ぎゅうにゅう.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/ぎゅうにゅう.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/ぎゅうにゅう.png"
+          },
+          {
+              "name": "ごはん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/ごはん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/ごはん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/ごはん.png"
+          },
+          {
+              "name": "さかな",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/さかな.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/さかな.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/さかな.png"
+          },
+          {
+              "name": "すし",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/すし.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/すし.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/すし.png"
+          },
+          {
+              "name": "たまご",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/たまご.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/たまご.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/たまご.png"
+          },
+          {
+              "name": "にく",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/にく.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/にく.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/にく.png"
+          },
+          {
+              "name": "みず",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/みず.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/みず.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/みず.png"
+          },
+          {
+              "name": "みそしる",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/みそしる.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/みそしる.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/みそしる.png"
+          },
+          {
+              "name": "パン",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/パン.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/パン.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/パン.png"
+          },
+          {
+              "name": "ラーメン",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/ラーメン.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/audio/ラーメン.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/ラーメン.png"
+          }
+      ]
+  },
+  {
+      "name": "Fruit",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/いちご.png",
+      "items": [
+          {
+              "name": "いちご",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/いちご.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/いちご.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/いちご.png"
+          },
+          {
+              "name": "かき",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/かき.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/かき.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/かき.png"
+          },
+          {
+              "name": "さくらんぼ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/さくらんぼ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/さくらんぼ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/さくらんぼ.png"
+          },
+          {
+              "name": "なし",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/なし.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/なし.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/なし.png"
+          },
+          {
+              "name": "ぶどう",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/ぶどう.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/ぶどう.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/ぶどう.png"
+          },
+          {
+              "name": "みかん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/みかん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/みかん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/みかん.png"
+          },
+          {
+              "name": "もも",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/もも.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/もも.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/もも.png"
+          },
+          {
+              "name": "りんご",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/りんご.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/りんご.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/りんご.png"
+          },
+          {
+              "name": "スイカ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/スイカ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/スイカ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/スイカ.png"
+          },
+          {
+              "name": "バナナ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/バナナ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/バナナ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/バナナ.png"
+          },
+          {
+              "name": "パイナップル",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/パイナップル.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/パイナップル.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/パイナップル.png"
+          },
+          {
+              "name": "メロン",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/メロン.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/audio/メロン.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/match/メロン.png"
+          }
+      ]
+  },
+  {
+      "name": "House",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/いえ.png",
+      "items": [
+          {
+              "name": "いえ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/いえ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/audio/いえ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/いえ.png"
+          },
+          {
+              "name": "いす",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/いす.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/audio/いす.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/いす.png"
+          },
+          {
+              "name": "つくえ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/つくえ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/audio/つくえ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/つくえ.png"
+          },
+          {
+              "name": "とけい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/とけい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/audio/とけい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/とけい.png"
+          },
+          {
+              "name": "どあ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/どあ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/audio/どあ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/どあ.png"
+          },
+          {
+              "name": "まど",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/まど.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/audio/まど.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/まど.png"
+          }
+      ]
+  },
+  {
+      "name": "Nature",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/あめ.png",
+      "items": [
+          {
+              "name": "あめ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/あめ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/あめ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/あめ.png"
+          },
+          {
+              "name": "かわ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/かわ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/かわ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/かわ.png"
+          },
+          {
+              "name": "き",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/き.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/き.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/き.png"
+          },
+          {
+              "name": "くも",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/くも.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/くも.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/くも.png"
+          },
+          {
+              "name": "たいよう",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/たいよう.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/たいよう.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/たいよう.png"
+          },
+          {
+              "name": "つき",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/つき.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/つき.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/つき.png"
+          },
+          {
+              "name": "はな",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/はな.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/はな.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/はな.png"
+          },
+          {
+              "name": "ほし",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/ほし.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/ほし.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/ほし.png"
+          },
+          {
+              "name": "むし",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/むし.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/むし.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/むし.png"
+          },
+          {
+              "name": "やま",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/やま.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/やま.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/やま.png"
+          },
+          {
+              "name": "ゆき",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/ゆき.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/audio/ゆき.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/ゆき.png"
+          }
+      ]
+  },
+  {
+      "name": "School",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/えんぴつ.png",
+      "items": [
+          {
+              "name": "えんぴつ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/えんぴつ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/えんぴつ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/えんぴつ.png"
+          },
+          {
+              "name": "おとこのこ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/おとこのこ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/おとこのこ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/おとこのこ.png"
+          },
+          {
+              "name": "おんなのこ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/おんなのこ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/おんなのこ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/おんなのこ.png"
+          },
+          {
+              "name": "かばん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/かばん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/かばん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/かばん.png"
+          },
+          {
+              "name": "かみ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/かみ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/かみ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/かみ.png"
+          },
+          {
+              "name": "がっこう",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/がっこう.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/がっこう.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/がっこう.png"
+          },
+          {
+              "name": "きょうしつ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/きょうしつ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/きょうしつ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/きょうしつ.png"
+          },
+          {
+              "name": "せいと",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/せいと.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/せいと.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/せいと.png"
+          },
+          {
+              "name": "せんせい",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/せんせい.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/せんせい.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/せんせい.png"
+          },
+          {
+              "name": "はさみ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/はさみ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/はさみ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/はさみ.png"
+          },
+          {
+              "name": "ほん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/ほん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/audio/ほん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/ほん.png"
+          }
+      ]
+  },
+  {
+      "name": "Town",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/えき.png",
+      "items": [
+          {
+              "name": "えき",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/えき.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/えき.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/えき.png"
+          },
+          {
+              "name": "がっこう",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/がっこう.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/がっこう.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/がっこう.png"
+          },
+          {
+              "name": "けいさつしょ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/けいさつしょ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/けいさつしょ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/けいさつしょ.png"
+          },
+          {
+              "name": "こうえん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/こうえん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/こうえん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/こうえん.png"
+          },
+          {
+              "name": "としょかん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/としょかん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/としょかん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/としょかん.png"
+          },
+          {
+              "name": "どうぶつえん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/どうぶつえん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/どうぶつえん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/どうぶつえん.png"
+          },
+          {
+              "name": "はなや",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/はなや.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/はなや.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/はなや.png"
+          },
+          {
+              "name": "びょういん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/びょういん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/びょういん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/びょういん.png"
+          },
+          {
+              "name": "みせ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/みせ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/みせ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/みせ.png"
+          },
+          {
+              "name": "やおや",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/やおや.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/やおや.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/やおや.png"
+          },
+          {
+              "name": "ゆうびんきょく",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/ゆうびんきょく.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/ゆうびんきょく.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/ゆうびんきょく.png"
+          },
+          {
+              "name": "レストラン",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/レストラン.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/audio/レストラン.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/レストラン.png"
+          }
+      ]
+  },
+  {
+      "name": "Transportation",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/ききゅう.png",
+      "items": [
+          {
+              "name": "ききゅう",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/ききゅう.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/ききゅう.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/ききゅう.png"
+          },
+          {
+              "name": "きゅうきゅうしゃ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/きゅうきゅうしゃ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/きゅうきゅうしゃ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/きゅうきゅうしゃ.png"
+          },
+          {
+              "name": "くるま",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/くるま.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/くるま.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/くるま.png"
+          },
+          {
+              "name": "しょうぼうしゃ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/しょうぼうしゃ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/しょうぼうしゃ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/しょうぼうしゃ.png"
+          },
+          {
+              "name": "じてんしゃ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/じてんしゃ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/じてんしゃ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/じてんしゃ.png"
+          },
+          {
+              "name": "でんしゃ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/でんしゃ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/でんしゃ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/でんしゃ.png"
+          },
+          {
+              "name": "ひこうき",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/ひこうき.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/ひこうき.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/ひこうき.png"
+          },
+          {
+              "name": "ふね",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/ふね.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/ふね.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/ふね.png"
+          },
+          {
+              "name": "トラック",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/トラック.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/トラック.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/トラック.png"
+          },
+          {
+              "name": "バス",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/バス.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/バス.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/バス.png"
+          },
+          {
+              "name": "パトカー",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/パトカー.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/パトカー.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/パトカー.png"
+          },
+          {
+              "name": "ロケット",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/ロケット.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/audio/ロケット.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/match/ロケット.png"
+          }
+      ]
+  },
+  {
+      "name": "Vegetable",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/かぼちゃ.png",
+      "items": [
+          {
+              "name": "かぼちゃ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/かぼちゃ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/かぼちゃ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/かぼちゃ.png"
+          },
+          {
+              "name": "きゅうり",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/きゅうり.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/きゅうり.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/きゅうり.png"
+          },
+          {
+              "name": "さつまいも",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/さつまいも.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/さつまいも.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/さつまいも.png"
+          },
+          {
+              "name": "じゃがいも",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/じゃがいも.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/じゃがいも.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/じゃがいも.png"
+          },
+          {
+              "name": "たまねぎ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/たまねぎ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/たまねぎ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/たまねぎ.png"
+          },
+          {
+              "name": "だいこん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/だいこん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/だいこん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/だいこん.png"
+          },
+          {
+              "name": "なす",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/なす.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/なす.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/なす.png"
+          },
+          {
+              "name": "にんじん",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/にんじん.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/にんじん.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/にんじん.png"
+          },
+          {
+              "name": "オクラ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/オクラ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/オクラ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/オクラ.png"
+          },
+          {
+              "name": "キャベツ",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/キャベツ.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/キャベツ.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/キャベツ.png"
+          },
+          {
+              "name": "トマト",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/トマト.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/トマト.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/トマト.png"
+          },
+          {
+              "name": "ピーマン",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/ピーマン.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/audio/ピーマン.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/match/ピーマン.png"
+          }
+      ]
+  },
+  {
+      "name": "Verb",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/あそびます.png",
+      "items": [
+          {
+              "name": "あそびます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/あそびます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/あそびます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/あそびます.png"
+          },
+          {
+              "name": "うたいます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/うたいます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/うたいます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/うたいます.png"
+          },
+          {
+              "name": "かきます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/かきます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/かきます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/かきます.png"
+          },
+          {
+              "name": "ききます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/ききます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/ききます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/ききます.png"
+          },
+          {
+              "name": "すわります",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/すわります.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/すわります.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/すわります.png"
+          },
+          {
+              "name": "たちます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/たちます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/たちます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/たちます.png"
+          },
+          {
+              "name": "たべます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/たべます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/たべます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/たべます.png"
+          },
+          {
+              "name": "つくります",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/つくります.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/つくります.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/つくります.png"
+          },
+          {
+              "name": "のみます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/のみます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/のみます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/のみます.png"
+          },
+          {
+              "name": "のります",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/のります.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/のります.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/のります.png"
+          },
+          {
+              "name": "みます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/みます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/みます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/みます.png"
+          },
+          {
+              "name": "よみます",
+              "img1": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/よみます.png",
+              "audio": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/audio/よみます.mp3",
+              "img2": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/よみます.png"
+          }
+      ]
+  }
+]

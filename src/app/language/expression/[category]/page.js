@@ -27,8 +27,8 @@ export default function CategoryPage({ params: paramsPromise }) {
     <main className="p-8">
       <h1 className="text-3xl font-bold mb-6">{selectedCategory.name}</h1>
       <p className="mb-4 text-gray-700">{selectedCategory.description}</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {selectedCategory.expressions.map((item, index) => (
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
+      {selectedCategory.expressions.map((item, index) => (
           <ExpressionCard
             key={index}
             title={item.title}
