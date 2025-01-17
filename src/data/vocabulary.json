@@ -1,7 +1,7 @@
 [
   {
       "name": "Adjectives",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/あたらしい.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Adjectives/img/あたらしい.png",
       "items": [
           {
               "name": "あたらしい",
@@ -79,7 +79,7 @@
   },
   {
       "name": "Animal",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/いぬ.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Animal/img/いぬ.png",
       "items": [
           {
               "name": "いぬ",
@@ -157,7 +157,7 @@
   },
   {
       "name": "Body",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/あし.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Body/img/あし.png",
       "items": [
           {
               "name": "あし",
@@ -235,7 +235,7 @@
   },
   {
       "name": "Color",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/あお.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Color/img/あお.png",
       "items": [
           {
               "name": "あお",
@@ -313,7 +313,7 @@
   },
   {
       "name": "Food",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/おちゃ.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Food/img/おちゃ.png",
       "items": [
           {
               "name": "おちゃ",
@@ -391,7 +391,7 @@
   },
   {
       "name": "Fruit",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/いちご.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Fruit/img/いちご.png",
       "items": [
           {
               "name": "いちご",
@@ -469,7 +469,7 @@
   },
   {
       "name": "House",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/いえ.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/House/img/いえ.png",
       "items": [
           {
               "name": "いえ",
@@ -511,7 +511,7 @@
   },
   {
       "name": "Nature",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/あめ.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Nature/img/あめ.png",
       "items": [
           {
               "name": "あめ",
@@ -583,7 +583,7 @@
   },
   {
       "name": "School",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/えんぴつ.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/School/img/えんぴつ.png",
       "items": [
           {
               "name": "えんぴつ",
@@ -655,7 +655,7 @@
   },
   {
       "name": "Town",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/えき.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Town/img/えき.png",
       "items": [
           {
               "name": "えき",
@@ -733,7 +733,7 @@
   },
   {
       "name": "Transportation",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/ききゅう.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Transportation/img/ききゅう.png",
       "items": [
           {
               "name": "ききゅう",
@@ -811,7 +811,7 @@
   },
   {
       "name": "Vegetable",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/かぼちゃ.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Vegetable/img/かぼちゃ.png",
       "items": [
           {
               "name": "かぼちゃ",
@@ -889,7 +889,7 @@
   },
   {
       "name": "Verb",
-      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/あそびます.png",
+      "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Vocabulary/Verb/img/あそびます.png",
       "items": [
           {
               "name": "あそびます",

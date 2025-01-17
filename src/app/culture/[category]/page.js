@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import Card from "@/components/Card";
 import Modal from "@/components/Modal";
 import sections from "@/data/sections.json";
-
+import CategoryNavigator from "@/components/CategoryNavigator";
 export default function CategoryPage({ params: paramsPromise }) {
   // Unwrap the `params` promise
   const params = use(paramsPromise);
@@ -19,18 +19,12 @@ export default function CategoryPage({ params: paramsPromise }) {
 
   // Find the selected category (case-insensitive)
   const selectedCategory = CultureSection?.categories.find(
-    (cat) => cat.name.toLowerCase() === category?.toLowerCase().replace("%20", " ")
+    (cat) => cat.name.toLowerCase() === category?.toLowerCase().replace("%20", " ").replace("-", " ")
   );
 
   // Modal state for slides
   const [selectedSlide, setSelectedSlide] = useState(null);
 
-  // Navigation Handlers
-  const currentIndex = sections.findIndex((section) => section.name === "Culture");
-  const handleNavigation = (direction) => {
-    const nextIndex = (currentIndex + direction + sections.length) % sections.length;
-    router.push(sections[nextIndex].href); // Use router.push for navigation
-  };
 
   useEffect(() => {
     // Redirect only if the category is invalid and the data is loaded
@@ -50,7 +44,7 @@ export default function CategoryPage({ params: paramsPromise }) {
     <main className="p-8">
       <h1 className="text-3xl font-bold mb-6">{selectedCategory.name}</h1>
       <p className="mb-6">Explore items in {selectedCategory.name}</p>
-
+      <CategoryNavigator data={CultureSection.categories} currentCategory={selectedCategory.name} baseURL="/culture" />
       {/* Render Slides */}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
       {selectedCategory.items.map((item) => (
@@ -64,21 +58,6 @@ export default function CategoryPage({ params: paramsPromise }) {
         ))}
       </div>
 
-      {/* Navigation Buttons */}
-      <div className="mt-6 flex justify-between">
-        <button
-          onClick={() => handleNavigation(-1)}
-          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
-        >
-          Previous Section
-        </button>
-        <button
-          onClick={() => handleNavigation(1)}
-          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
-        >
-          Next Section
-        </button>
-      </div>
 
       {/* Modal */}
       {selectedSlide && (

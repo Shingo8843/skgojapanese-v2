@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useRef } from "react";
 
 export default function FlippableCard({
   frontImage,
@@ -10,6 +11,7 @@ export default function FlippableCard({
   isReset,
   isFlipped,
   onFlip,
+  audioSrc = null,
 }) {
   const [flipped, setFlipped] = useState(false);
 
@@ -22,12 +24,19 @@ export default function FlippableCard({
   }, [isFlipped]);
 
   const handleFlip = () => {
-    if (!flipped) {
-      setFlipped(true);
-      if (onFlip) onFlip(); // Notify parent on flip
+    
+    setFlipped(!flipped);
+    if (onFlip) onFlip(); // Notify parent on flip
+    playAudio();
+    
+  };
+  const audioRef = useRef(null);
+  
+  const playAudio = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
     }
   };
-
   return (
     <div
       className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 cursor-pointer rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500"
@@ -59,6 +68,9 @@ export default function FlippableCard({
       >
         <p className="text-xl font-bold">{backText}</p>
       </div>
+
+      {/* Hidden Audio Element */}
+      <audio ref={audioRef} src={audioSrc} />
     </div>
   );
 }

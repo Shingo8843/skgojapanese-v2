@@ -1,6 +1,7 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
-
+import { useRef } from "react";
 export default function Card({
   title,
   description,
@@ -9,12 +10,19 @@ export default function Card({
   alt,
   onClick,
   className = "", // Default value set to an empty string
+  audioSrc = null,
 }) {
   const Wrapper = href ? Link : "div"; // Use Link for navigation, div for actions
   const wrapperProps = href
     ? { href, className: `block ${className}` }
     : { onClick, role: "button", className: `block cursor-pointer ${className}` };
-
+  const audioRef = useRef(null);
+  
+  const playAudio = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  };
   return (
     <Wrapper
       {...wrapperProps}
@@ -36,6 +44,8 @@ export default function Card({
         <h3 className="text-sm sm:text-base font-bold">{title}</h3>
         <p className="text-xs sm:text-sm text-gray-600">{description}</p>
       </div>
+      {/* Hidden Audio Element */}
+      <audio ref={audioRef} src={audioSrc} />
     </Wrapper>
   );
 }

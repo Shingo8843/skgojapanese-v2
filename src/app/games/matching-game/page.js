@@ -3,11 +3,14 @@
 import Link from "next/link";
 import data from "@/data/vocabulary.json"; // JSON file path
 import Card from "@/components/Card";
-
+import CategoryNavigator from "@/components/CategoryNavigator";
+import sections from "@/data/sections.json";
 export default function MatchingGamePage() {
+  const currentSection = sections.find((section) => section.name === "Games");
   return (
     <main className="p-8">
       <h1 className="text-3xl font-bold mb-6">Matching Game Categories</h1>
+      <CategoryNavigator data={currentSection.subsections} currentCategory={"Matching Game"} baseURL="/games" />
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
       {data.map((category) => (
           <Link key={category.name} href={`/games/matching-game/${category.name.toLowerCase()}`}>

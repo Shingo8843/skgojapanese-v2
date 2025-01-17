@@ -3,11 +3,14 @@
 import Link from "next/link";
 import data from "@/data/expression.json"; // JSON file path
 import Card from "@/components/Card";
-
+import CategoryNavigator from "@/components/CategoryNavigator";
+import sections from "@/data/sections.json";
 export default function ExpressionPage() {
+  const currentSection = sections.find((section) => section.name === "Language");
   return (
     <main className="p-8">
       <h1 className="text-3xl font-bold mb-6">Expression Categories</h1>
+      <CategoryNavigator data={currentSection.subsections} currentCategory={"Expression"} baseURL="/language" />
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
       {data.map((category) => (
           <Link key={category.name} href={`/language/expression/${category.name.toLowerCase()}`}>

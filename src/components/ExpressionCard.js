@@ -20,8 +20,9 @@ export default function ExpressionCard({ title, explanation, image, alt, audioSr
           src={image}
           alt={alt}
           layout="fill"
-          objectFit="cover"
-          className="rounded-md"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="object-contain rounded-md"
+          priority
         />
       </div>
 
