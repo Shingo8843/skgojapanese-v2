@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Modal from "@/components/Modal";
 import FlippableCard from "@/components/FlippableCard";
 import data from "@/data/vocabulary.json";
-
+import CategoryNavigator from "@/components/CategoryNavigator";
 // Shuffle function
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
@@ -105,41 +105,10 @@ export default function CategoryPage({ params: paramsPromise }) {
     return <p className="text-center text-xl text-gray-600">Category not found</p>;
   }
 
-  const handleNextCategory = () => {
-    const nextIndex = (categoryIndex + 1) % data.length; // Loop back to the first category
-    router.push(`/games/matching-game/${data[nextIndex].name.toLowerCase()}`);
-  };
-
-  const handlePreviousCategory = () => {
-    const prevIndex = (categoryIndex - 1 + data.length) % data.length; // Loop back to the last category
-    router.push(`/games/matching-game/${data[prevIndex].name.toLowerCase()}`);
-  };
-
   return (
     <main className="p-8">
       <h1 className="text-3xl font-bold mb-6 text-center">{selectedCategory.name}</h1>
-      <div className="flex justify-between items-center mb-6">
-        <button
-          onClick={handlePreviousCategory}
-          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
-        >
-          Previous Category
-        </button>
-
-        <button
-          onClick={() => router.push("/games/matching-game")}
-          className="px-6 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition duration-300"
-        >
-          Back to Categories
-        </button>
-
-        <button
-          onClick={handleNextCategory}
-          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
-        >
-          Next Category
-        </button>
-      </div>
+      <CategoryNavigator data={data} currentCategory={selectedCategory.name} baseURL="/games/memory-game" />
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6 justify-items-center">
       {cards.map((card) => (

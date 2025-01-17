@@ -31,13 +31,13 @@
       "subsections": [
         {
           "name": "Matching Game",
-          "description": "Test your memory by matching Japanese words with their meanings.",
+          "description": "Test your memory by matching two identical images.",
           "href": "/games/matching-game",
           "image": "/images/matching-game.jpg"
         },
         {
           "name": "Memory Game",
-          "description": "Sharpen your memory by finding pairs of Japanese words.",
+          "description": "Sharpen your memory by finding pairs of images",
           "href": "/games/memory-game",
           "image": "/images/memory-game.jpg"
         }
@@ -50,7 +50,7 @@
       "categories": [
         {
           "name": "Count",
-          "image": "/images/count-category.jpg",
+          "image": "/images/number-blocks.png",
           "items": [
             {
               "name": "How to count over 1-10 in Japanese",
@@ -66,7 +66,7 @@
         },
         {
           "name": "Season",
-          "image": "/images/season-category.jpg",
+          "image": "/images/season.png",
           "items": [
             {
               "name": "Discover the Seasonal Wonders of Japan: 日本の四季折々の魅力",
@@ -122,7 +122,7 @@
         },
         {
           "name": "Festival",
-          "image": "/images/festival-category.jpg",
+          "image": "/images/moon-festival.png",
           "items": [
             {
               "name": "Tanabata",
@@ -223,7 +223,7 @@
         },
         {
           "name": "Food",
-          "image": "/images/food-category.jpg",
+          "image": "/images/sushi.png",
           "items": [
             {
               "name": "Rice",
@@ -239,7 +239,7 @@
         },
         {
           "name": "Travel",
-          "image": "/images/travel-category.jpg",
+          "image": "/images/travel-luggage.png",
           "items": [
             {
               "name": "温泉について",
@@ -270,7 +270,7 @@
         },
         {
           "name": "Culture",
-          "image": "/images/culture-category.jpg",
+          "image": "/images/temple.png",
           "items": [
             {
               "name": "日本のハロウィーン  Halloween in Japan",
@@ -301,7 +301,7 @@
         },
         {
           "name": "Fukushima",
-          "image": "/images/fukushima-category.jpg",
+          "image": "/images/Fukushima.png",
           "items": [
             {
               "name": "Fukushima: A Journey of disaster Memory and Resolve",
@@ -322,7 +322,7 @@
         },
         {
           "name": "Japanese Writing System",
-          "image": "/images/japanesewritingsystem-category.jpg",
+          "image": "/images/calligraphy.png",
           "items": [
             {
               "name": "Japanese writing system",
@@ -333,7 +333,7 @@
         },
         {
           "name": "Sounds Of Japanese",
-          "image": "/images/soundsofjapanese-category.jpg",
+          "image": "/images/pronounce.png",
           "items": [
             {
               "name": "Japanese Kana sound",
@@ -349,7 +349,7 @@
         },
         {
           "name": "Sports",
-          "image": "/images/sports-category.jpg",
+          "image": "/images/samurai.png",
           "items": [
             {
               "name": "SUMO すもう",
@@ -360,7 +360,7 @@
         },
         {
           "name": "Time Expressions",
-          "image": "/images/timeexpressions-category.jpg",
+          "image": "/images/clock.png",
           "items": [
             {
               "name": "Timing in Japanese ",
@@ -371,7 +371,7 @@
         },
         {
           "name": "Daily Life",
-          "image": "/images/dailylife-category.jpg",
+          "image": "/images/dailylife.png",
           "items": [
             {
               "name": "にほんの こうつうシステム ",
