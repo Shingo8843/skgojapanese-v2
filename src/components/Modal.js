@@ -15,7 +15,7 @@ export default function Modal({ children, onClose }) {
         </button>
 
         {/* Content */}
-        <div className="flex-grow p-6 overflow-y-auto">{children}</div>
+        <div className="flex-grow overflow-y-auto sm:p-0 md:p-3 lg:p-6">{children}</div>
       </div>
     </div>
   );

@@ -7,7 +7,11 @@ export default function CategoryNavigator({ data, currentCategory, baseURL }) {
 
   // Find the current category index
   const currentIndex = data.findIndex(
-    (cat) => cat.name.toLowerCase() === currentCategory.toLowerCase().replace("%20", " ").replace("-", " ")
+    (cat) =>
+      cat.name
+        .toLowerCase()
+        .replaceAll("%20", " ")
+        .replaceAll("-", " ") === currentCategory.toLowerCase()
   );
 
   if (currentIndex === -1) {
@@ -15,36 +19,41 @@ export default function CategoryNavigator({ data, currentCategory, baseURL }) {
   }
 
   const handleNavigate = (index) => {
-    const categoryName = data[index].name.toLowerCase().replace(" & ", "-").replace(" ", "-");
+    const categoryName = data[index].name
+      .toLowerCase()
+      .replaceAll(" & ", "-")
+      .replaceAll(" ", "-");
     router.push(`${baseURL}/${categoryName}`);
   };
+
   const previousCategory = data[(currentIndex - 1 + data.length) % data.length];
   const nextCategory = data[(currentIndex + 1) % data.length];
   const returnCategory = baseURL.split("/").pop();
+
   return (
     <div className="flex justify-between items-center mb-2 sm:mb-4 lg:mb-8 text-sm sm:text-base lg:text-lg">
       {/* Previous Category Button */}
       <button
         onClick={() => handleNavigate((currentIndex - 1 + data.length) % data.length)}
-        className=" bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300 px-2 py-1 sm:px-4 sm:py-2 lg:px-8 lg:py-4 "
+        className="bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300 px-4 py-2 sm:px-6 sm:py-3 lg:px-8 lg:py-4 min-w-[120px] text-center min-h-[60px]"
       >
-        {previousCategory.name || "Previous"}
+        {previousCategory.name.replaceAll("-", " ").toUpperCase() || "PREV"}
       </button>
 
       {/* Back to Categories Button */}
       <button
         onClick={() => router.push(baseURL || "/")}
-        className=" bg-gray-500 text-white rounded-md hover:bg-gray-600 transition duration-300 px-3 py-1 sm:px-6 sm:py-2 lg:px-12 lg:py-4 "
+        className="bg-gray-500 text-white rounded-md hover:bg-gray-600 transition duration-300 px-4 py-2 sm:px-6 sm:py-3 lg:px-8 lg:py-4 min-w-[120px] text-center min-h-[60px]"
       >
-        { returnCategory || "Home" }
+        {returnCategory.replaceAll("-", " ").toUpperCase() || "HOME"}
       </button>
 
       {/* Next Category Button */}
       <button
         onClick={() => handleNavigate((currentIndex + 1) % data.length)}
-        className=" bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300 px-2 py-1 sm:px-4 sm:py-2 lg:px-8 lg:py-4 "
+        className="bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300 px-4 py-2 sm:px-6 sm:py-3 lg:px-8 lg:py-4 min-w-[120px] text-center min-h-[60px]"
       >
-        {nextCategory.name || "Next"}
+        {nextCategory.name.replaceAll("-", " ").toUpperCase() || "NEXT"}
       </button>
     </div>
   );

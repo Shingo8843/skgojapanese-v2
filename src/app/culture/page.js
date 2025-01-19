@@ -20,7 +20,7 @@ export default function CulturePage() {
   );
 
   return (
-    <main className="p-8">
+    <main className="px-4 md:px-8 lg:px-16 py-8">
       <h1 className="text-3xl font-bold mb-6">{cultureSection.name}</h1>
       <p className="mb-6">{cultureSection.description}</p>
       <CategoryNavigator
@@ -39,8 +39,8 @@ export default function CulturePage() {
             key={category.name}
             href={`/culture/${category.name
               .toLowerCase()
-              .replace(" & ", "-")
-              .replace(" ", "-")}`}
+              .replaceAll(" & ", "-")
+              .replaceAll(" ", "-")}`}
             passHref
           >
             <Card

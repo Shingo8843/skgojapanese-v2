@@ -1,65 +1,1997 @@
 [
-    {
-      "name": "Greetings",
-      "description": "Learn common Japanese greetings.",
-      "image": "/images/greetings.jpg",
+  {
+      "name": "Greeting",
+      "description": "",
+      "image": "/images/family (1).png",
       "items": [
-        {
-          "title": "こんにちは",
-          "explanation": "Hello or Good Afternoon.",
-          "image": "/images/hello.jpg",
-          "alt": "A friendly hello gesture",
-          "audioSrc": "/audio/kon-nichi-wa.mp3"
-        },
-        {
-          "title": "おはよう",
-          "explanation": "Good morning.",
-          "image": "/images/good-morning.jpg",
-          "alt": "A morning greeting gesture",
-          "audioSrc": "/audio/ohayo.mp3"
-        }
+          {
+              "title": "おはよう。",
+              "explanation": "Japanese use 'おはよう Ohayō' to greet people in the morning. Say 'おはよう Ohayō' any time between getting up and noon. Good morning.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/おはよう.png",
+              "alt": "おはよう。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/おはよう.mp3"
+          },
+          {
+              "title": "おはようございます。",
+              "explanation": "Polite greeting for Good morning is 'おはようございます Ohayou gozaimasu'. Say 'おはようございます Ohayou gozaimasu'  to elder people than you or in formal situations.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/おはようございます.png",
+              "alt": "おはようございます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/おはようございます.mp3"
+          },
+          {
+              "title": "こんにちは。",
+              "explanation": "Japanese use 'こんにちは Konnichiwa' to greet people in the afternoon. Say 'こんにちわ Konnichiwa' any time between noon and sunset. Note;Hiragana は in the greeting phrase is pronounced 'wa'. Hello/Good afternoon.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/こんにちは.png",
+              "alt": "こんにちは。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/こんにちは.mp3"
+          },
+          {
+              "title": "いただきます。",
+              "explanation": "Saying 'いただきます itadakimasu' before a meal is a significant piece of Japanese etiquette. Usually, everyone will say the phrase together, but it's also normal for each person to say it individually as they begin eating.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/いただきます.png",
+              "alt": "いただきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/いただきます.mp3"
+          },
+          {
+              "title": "ごちそうさまでした。",
+              "explanation": "Saying 'ごちそうさまでした gochisousamadeshita'  after a meal. It means 'Thank you for the meal; it was a feast.'",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/ごちそうさま.png",
+              "alt": "ごちそうさまでした。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/ごちそうさまでした.mp3"
+          },
+          {
+              "title": "こんばんは。",
+              "explanation": "Japanese use 'こんばんは Konbanwa' to greet people in the evening. Say 'こんばんわ Konnichiwa' any time between sunset and bedtime. Note; Hiragana は in the greeting phrase is pronounced 'wa'. Good evening.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/こんばんは.png",
+              "alt": "こんばんは。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/こんばんは.mp3"
+          },
+          {
+              "title": "おやすみなさい。",
+              "explanation": "Japanese use 'おやすみなさい oyasuminasai' to greet people at the bedtime. Say 'おやすみなさい oyasuminasai' before going to bed.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/おやすみなさい.png",
+              "alt": "おやすみなさい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/おやすみなさい.mp3"
+          },
+          {
+              "title": "いってきます。",
+              "explanation": "The Japanese have greetings specific for when someone leaves the house. The person who leaves says, ittekimasu, literally 'I'll go and come back.'",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/いってきます.png",
+              "alt": "いってきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/いってきます.mp3"
+          },
+          {
+              "title": "いってらっしゃい。",
+              "explanation": "The person staying says itterasshai, literally 'please go and come back.''' These are used daily but only at the home or somewhere the people are based, since it only makes sense when they will go and come back.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/いってきます.png",
+              "alt": "いってらっしゃい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/いってらっしゃい.mp3"
+          },
+          {
+              "title": "ただいま。",
+              "explanation": "The returning person says 'ただいま Tadaima'', literally 'I have come back now.'",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/ただいま.png",
+              "alt": "ただいま。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/ただいま.mp3"
+          },
+          {
+              "title": "おかえりなさい。",
+              "explanation": " The welcoming person says 'おかえりなさい Okaerinasai'. This phrase originally means a remnant of the literal 'Please come back soon' prayer.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/おかえり.png",
+              "alt": "おかえりなさい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/おかえりなさい.mp3"
+          },
+          {
+              "title": "げんき　ですか。",
+              "explanation": "Genki means 'lively; full of spirit; energetic; vigorous; vital; spirited' in Japanese. How are you? How are you doing?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/げんきですか.png",
+              "alt": "げんき　ですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/げんきですか.mp3"
+          },
+          {
+              "title": "はい、げんきです。",
+              "explanation": "If you are feeling 'genki' you can say, 'げんきです' which simply means, 'yeah, I'm fine'. Yes, I am Genki.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/はい、げんきです.png",
+              "alt": "はい、げんきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/はい、げんきです（圭吾）.mp3"
+          },
+          {
+              "title": "さようなら。",
+              "explanation": "さようなら (sayonara) is the formal greeting used when someone leaves. For example, it used as 'goodbye' between teacher and students in the classroom. Japanese people don't use sayonara in everyday conversation that much.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/さようなら.png",
+              "alt": "さようなら。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/さようなら.mp3"
+          },
+          {
+              "title": "また らいしゅう。",
+              "explanation": "Bye. See you. Japanese people use 'じゃあね (Jā ne)' instead of 'さようなら sayonara' for greeting in general conversation.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/また　らいしゅう.png",
+              "alt": "また らいしゅう。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/またらいしゅう.mp3"
+          },
+          {
+              "title": "またね。",
+              "explanation": "またね(matane) is closer to 'see you again' or 'see you next time'",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/またね.png",
+              "alt": "またね。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/またね（圭吾）.mp3"
+          },
+          {
+              "title": "またあした。",
+              "explanation": "またあした(mata ashita) is closer to 'see you next tomorrow'",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/ばいばい.png",
+              "alt": "またあした。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/またあした.mp3"
+          },
+          {
+              "title": "ばいばい。",
+              "explanation": "ばいばい(baibai) is used to close friends. Bye-bye.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/Greeting/ばいばい.png",
+              "alt": "ばいばい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あいさつ/ばいばい.mp3"
+          }
       ]
-    },
-    {
-      "name": "Thank Yous",
-      "description": "Learn how to express gratitude in Japanese.",
-      "image": "/images/thank-you-category.jpg",
+  },
+  {
+      "name": "Introducing yourself",
+      "description": "",
+      "image": "/images/introduction.png",
       "items": [
-        {
-          "title": "ありがとう",
-          "explanation": "Thank you.",
-          "image": "/images/thank-you.jpg",
-          "alt": "Thank you gesture",
-          "audioSrc": "/audio/arigatou.mp3"
-        },
-        {
-          "title": "ありがとうございます",
-          "explanation": "Thank you very much (formal).",
-          "image": "/images/thank-you-formal.jpg",
-          "alt": "Formal thank you gesture",
-          "audioSrc": "/audio/arigatou-gozaimasu.mp3"
-        }
+          {
+              "title": "わたしはMaryです。",
+              "explanation": "Watashi wa Mary desu. I'm Mary.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/わたしはMaryです.png",
+              "alt": "わたしはMaryです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/わたしはメリーです.mp3"
+          },
+          {
+              "title": "ぼくはトムです。",
+              "explanation": "Boku wa Tom desu. I'm Tom.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/ぼくはTomです.png",
+              "alt": "ぼくはトムです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ぼくはTomです.mp3"
+          },
+          {
+              "title": "わたしの なまえは Maryです。",
+              "explanation": "Watashi no mamae wa Mary desu. My name is Mary.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/わたしはMaryです.png",
+              "alt": "わたしの なまえは Maryです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/わたしのなまえはメリーです.mp3"
+          },
+          {
+              "title": "ぼくの なまえは Tomです。",
+              "explanation": "Boku no Namae wa Tom desu. My name is Tom.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/ぼくはTomです.png",
+              "alt": "ぼくの なまえは Tomです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ぼくのなまえはTomです.mp3"
+          },
+          {
+              "title": "なんさいですか。",
+              "explanation": "Nan sai desu ka. How old are you?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/なんさいですか.png",
+              "alt": "なんさいですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/なんさいですか.mp3"
+          },
+          {
+              "title": "いくつですか。",
+              "explanation": "Ikutu desu ka. How old are you?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/なんさいですか.png",
+              "alt": "いくつですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/いくつですか.mp3"
+          },
+          {
+              "title": "いっさいです。",
+              "explanation": "Issai desu.1 year old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/1.png",
+              "alt": "いっさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/いっさいです.mp3"
+          },
+          {
+              "title": "にさいです。",
+              "explanation": "Nisai desu. 2 year old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/2.png",
+              "alt": "にさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/にさいです.mp3"
+          },
+          {
+              "title": "さんさいです。",
+              "explanation": "Sansai desu.  3 year old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/3.png",
+              "alt": "さんさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/さんさいです.mp3"
+          },
+          {
+              "title": "よんさいです。",
+              "explanation": "Yonsai desu. 4 year old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/4.png",
+              "alt": "よんさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/よんさいです.mp3"
+          },
+          {
+              "title": "ごさいです。",
+              "explanation": "Gosai desu.  5 year old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/5.png",
+              "alt": "ごさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ごさいです.mp3"
+          },
+          {
+              "title": "ろくさいです。",
+              "explanation": "Roku sai desu. 6 year old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/6.png",
+              "alt": "ろくさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ろくさいです.mp3"
+          },
+          {
+              "title": "ななさいです。",
+              "explanation": "Nana sai desu. 7 years old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/7.png",
+              "alt": "ななさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ななさいです.mp3"
+          },
+          {
+              "title": "はっさいです。",
+              "explanation": "Hassai desu. 8 years old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/8.png",
+              "alt": "はっさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/はっさいです.mp3"
+          },
+          {
+              "title": "きゅうさいです。",
+              "explanation": "Kyūsai desu. 9 years old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/9.png",
+              "alt": "きゅうさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/きゅうさいです.mp3"
+          },
+          {
+              "title": "じゅっさいです。",
+              "explanation": "Jussai desu. 10 years old.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/10.png",
+              "alt": "じゅっさいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/じゅっさいです.mp3"
+          },
+          {
+              "title": "なんねんせいですか。",
+              "explanation": "Nan nen sei desu ka. What grade are you in?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/なんさいですか.png",
+              "alt": "なんねんせいですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/なんねんせいですか.mp3"
+          },
+          {
+              "title": "いちねんせいです。",
+              "explanation": "Ichi nen sei desu.   I'm a first-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/1.png",
+              "alt": "いちねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/いちねんせいです.mp3"
+          },
+          {
+              "title": "にねんせいです。",
+              "explanation": "Ni nen sei desu. I'm a second-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/2.png",
+              "alt": "にねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/にねんせいです.mp3"
+          },
+          {
+              "title": "さんねんせいです。",
+              "explanation": "Sani nen sei desu. I'm a third-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/3.png",
+              "alt": "さんねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/さんねんせいです.mp3"
+          },
+          {
+              "title": "よねんせいです。",
+              "explanation": "Yo nen sei desu. I'm a fourth-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/4.png",
+              "alt": "よねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/よねんせいです.mp3"
+          },
+          {
+              "title": "ごねんせいです。",
+              "explanation": "Go nen sei desu. I'm a fifth-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/5.png",
+              "alt": "ごねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ごねんせいです.mp3"
+          },
+          {
+              "title": "ろくねんせいです。",
+              "explanation": "Roku nen sei desu. I'm a sixth-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/6.png",
+              "alt": "ろくねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ろくねんせいです.mp3"
+          },
+          {
+              "title": "ななねんせいです。",
+              "explanation": "Nana nen sei desu. I'm a seventh-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/7.png",
+              "alt": "ななねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/ななねんせいです.mp3"
+          },
+          {
+              "title": "はちねんせいです。",
+              "explanation": "Hachi nen sei desu. I'm an eighth-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/8.png",
+              "alt": "はちねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/はちねんせいです.mp3"
+          },
+          {
+              "title": "きゅうねんせいです。",
+              "explanation": "Kyū nen sei desu. I'm a ninth-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/9.png",
+              "alt": "きゅうねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/きゅうねんせいです.mp3"
+          },
+          {
+              "title": "じゅうねんせいです。",
+              "explanation": "Juu nen sei desu. I'm a tenth-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/10.png",
+              "alt": "じゅうねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/じゅうねんせいです.mp3"
+          },
+          {
+              "title": "じゅういちねんせいです。",
+              "explanation": "Jū ichi nen sei desu. I'm an eleventh-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/11.png",
+              "alt": "じゅういちねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/じゅういちねんせいです.mp3"
+          },
+          {
+              "title": "じゅうにねんせいです。",
+              "explanation": "Jū ni nen sei desu. I'm a twelfth-grader.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/12.png",
+              "alt": "じゅうにねんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/じゅうにねんせいです.mp3"
+          },
+          {
+              "title": "はじめまして。",
+              "explanation": "When people meet for the first time, the Japanese say 'Hajimemashite' This expression is a wish for a good relationship.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/はじめまして.png",
+              "alt": "はじめまして。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/はじめまして.mp3"
+          },
+          {
+              "title": "よろしくおねがいします。",
+              "explanation": "Say 'Yoroshiku onegaishimasu,' to end your initial introduction. This translates roughly to 'please be nice to me.'This is usually the last phrase that Japanese people use when they introduce themselves.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/IntroduceYourSelf/はじめまして.png",
+              "alt": "よろしくおねがいします。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/じこしょうかい/よろしくおねがいします.mp3"
+          }
       ]
-    },
-    {
-      "name": "Apologies",
-      "description": "Learn how to say sorry and excuse me in Japanese.",
-      "image": "/images/apologies.jpg",
+  },
+  {
+      "name": "Classroom Language",
+      "description": "",
+      "image": "/images/education.png",
       "items": [
-        {
-          "title": "すみません",
-          "explanation": "Excuse me or Sorry.",
-          "image": "/images/excuse-me.jpg",
-          "alt": "Polite bowing gesture",
-          "audioSrc": "/audio/sumimasen.mp3"
-        },
-        {
-          "title": "ごめんなさい",
-          "explanation": "I'm sorry (casual).",
-          "image": "/images/sorry.jpg",
-          "alt": "Casual apology gesture",
-          "audioSrc": "/audio/gomennasai.mp3"
-        }
+          {
+              "title": "みてください。",
+              "explanation": "Mite kudasai. Look at.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/みてください.png",
+              "alt": "みてください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/みてください.mp3"
+          },
+          {
+              "title": "かいてください。",
+              "explanation": "Kaite kudasai. Write.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/かいてください.png",
+              "alt": "かいてください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/かいてください.mp3"
+          },
+          {
+              "title": "いってください。",
+              "explanation": "Itte kudasai. Say.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/いってください.png",
+              "alt": "いってください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/いってください.mp3"
+          },
+          {
+              "title": "きいてください。",
+              "explanation": "Kiite kudasai. Listen.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/きいてください.png",
+              "alt": "きいてください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/きいてください.mp3"
+          },
+          {
+              "title": "よんでください。",
+              "explanation": "Yonde kudasai. Read.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/よんでください.png",
+              "alt": "よんでください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/よんでください.mp3"
+          },
+          {
+              "title": "はなしてください。",
+              "explanation": "Hanashite kudasai. Talk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/はなしてください.png",
+              "alt": "はなしてください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/はなしてください.mp3"
+          },
+          {
+              "title": "もういっかい。",
+              "explanation": "Mō ikkai. One more.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/もういっかい.png",
+              "alt": "もういっかい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/もういっかい.mp3"
+          },
+          {
+              "title": "わかりましたか。",
+              "explanation": "Wakarimashitaka. Did you understand?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/もういっかい.png",
+              "alt": "わかりましたか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/わかりましたか.mp3"
+          },
+          {
+              "title": "よくできました。",
+              "explanation": "Yoku dekimashita. Well done.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/よくできました.png",
+              "alt": "よくできました。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/よくできました.mp3"
+          },
+          {
+              "title": "すばらしいです。",
+              "explanation": "Subarashīdesu. Great.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/すばらしいです.png",
+              "alt": "すばらしいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/すばらしいです.mp3"
+          },
+          {
+              "title": "きこえません。",
+              "explanation": "Kikoemasen. I can not hear.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/きこえません.png",
+              "alt": "きこえません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/きこえません.mp3"
+          },
+          {
+              "title": "もういちど、いってください。",
+              "explanation": "Mō ichido, itte kudasai. Please say that again.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/もういちど、いってください.png",
+              "alt": "もういちど、いってください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/もういちど いってください.mp3"
+          },
+          {
+              "title": "わかりません。",
+              "explanation": "Wakarimasen. I don't understand.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/わかりません.png",
+              "alt": "わかりません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/わかりません.mp3"
+          },
+          {
+              "title": "しつもんが あります。",
+              "explanation": "Shitsu mon ga arimasu. I have a question.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/もういちど、いってください.png",
+              "alt": "しつもんが あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/しつもんがあります.mp3"
+          },
+          {
+              "title": "ちょっと せきを はずしても いいですか。",
+              "explanation": "Chotto seki o hazushite mo iidesu ka. May I be excused for a minute?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/ちょっと せきを はずしても いいですか.png",
+              "alt": "ちょっと せきを はずしても いいですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/ちょっと せきを はずしても いいですか.mp3"
+          },
+          {
+              "title": "すぐに もどります",
+              "explanation": "Sugu ni modorimasu. I'll be right back.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/すぐに もどります.png",
+              "alt": "すぐに もどります",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/すぐに もどります.mp3"
+          },
+          {
+              "title": "インターネットのちょうしが わるいです。",
+              "explanation": "Internet no chōshi ga waruidesu. My internet connection isn't stable.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/クラスのにほんご/インターネットのちょうしが わるいです.png",
+              "alt": "インターネットのちょうしが わるいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/クラスのにほんご/インターネットのちょうしがわるいです.mp3"
+          }
       ]
-    }
+  },
+  {
+      "name": "Introducing family",
+      "description": "",
+      "image": "/images/family.png",
+      "items": [
+          {
+              "title": "わたしの かぞくです。",
+              "explanation": "Watashi no kazoku desu. They are my family.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/わたしの かぞくです.png",
+              "alt": "わたしの かぞくです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/わたしの かぞくです.mp3"
+          },
+          {
+              "title": "ぼくの おかあさんです。",
+              "explanation": "Boku no okāsan desu. She's my mother.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/ぼくの おかあさんです.png",
+              "alt": "ぼくの おかあさんです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ぼくの おかあさんです.mp3"
+          },
+          {
+              "title": "いもうとの アンです。",
+              "explanation": "Imōto no Ann desu. This is Ann, my sister.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/いもうとの アンです.png",
+              "alt": "いもうとの アンです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/いもうとの アンです.mp3"
+          },
+          {
+              "title": "おとうとの Mike です。",
+              "explanation": "Otōto no Mike desu. This is my brother Mike.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/おとうとの Mike です.png",
+              "alt": "おとうとの Mike です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/おとうとの Mike です.mp3"
+          },
+          {
+              "title": "ひとり。",
+              "explanation": "Hitori.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/ひとり.png",
+              "alt": "ひとり。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ひとり.mp3"
+          },
+          {
+              "title": "ふたり。",
+              "explanation": "Futari.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/ふたり.png",
+              "alt": "ふたり。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ふたり.mp3"
+          },
+          {
+              "title": "さんにん。",
+              "explanation": "San nin.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/さんにん.png",
+              "alt": "さんにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/さんにん.mp3"
+          },
+          {
+              "title": "よにん。",
+              "explanation": "Yo nin. Be careful! Although 4 is usually pronounced (yon) or (shi). When counting people, the Japanese say よにん (Yo nin), not Yonnin or Shinin.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/よにん.png",
+              "alt": "よにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/よにん.mp3"
+          },
+          {
+              "title": "ごにん。",
+              "explanation": "Go nin.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/ごにん.png",
+              "alt": "ごにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ごにん.mp3"
+          },
+          {
+              "title": "ろくにん。",
+              "explanation": "Roku nin.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/ろくにん.png",
+              "alt": "ろくにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ろくにん.mp3"
+          },
+          {
+              "title": "ななにん・しちにん。",
+              "explanation": "Nana nin, Shichi ninThere are two ways to read \"7 people\": \" shichi nin\" and \"nana nin\".",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/ななにん.png",
+              "alt": "ななにん・しちにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ななにん.mp3"
+          },
+          {
+              "title": "はちにん。",
+              "explanation": "Hachi nin.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/はちにん.png",
+              "alt": "はちにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/はちにん.mp3"
+          },
+          {
+              "title": "くにん・きゅうにん。",
+              "explanation": "Ku nin,  Kyū nin.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/くにん.png",
+              "alt": "くにん・きゅうにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/くにん きゅうにん.mp3"
+          },
+          {
+              "title": "じゅうにん。",
+              "explanation": "Jū nin.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/じゅうにん.png",
+              "alt": "じゅうにん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/じゅうにん.mp3"
+          },
+          {
+              "title": "なんにんかぞくですか。",
+              "explanation": "Nan nin kazoku desu ka. How many people are in your family?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/なんにんかぞくですか.png",
+              "alt": "なんにんかぞくですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/なんにんかぞくですか.mp3"
+          },
+          {
+              "title": "よにんかぞくです。",
+              "explanation": "Yo nin kazoku desu. We're a family of four.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/なんにんかぞくですか.png",
+              "alt": "よにんかぞくです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/よにんかぞくです.mp3"
+          },
+          {
+              "title": "かぞくは なんにんですか。",
+              "explanation": "Kazoku ha nan nin desuka. How many people are in your family?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/かぞくは なんにんですか.png",
+              "alt": "かぞくは なんにんですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/かぞくは なんにんですか.mp3"
+          },
+          {
+              "title": "ろくにんかぞくです。",
+              "explanation": "Roku nin kazoku desu. We're a family of six.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/ろくにんかぞくです.png",
+              "alt": "ろくにんかぞくです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ろくにんかぞくです.mp3"
+          },
+          {
+              "title": "さんにんです。",
+              "explanation": "San nin desu. There're three (people) in my family.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/かぞくは なんにんですか.png",
+              "alt": "さんにんです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/さんにんです.mp3"
+          },
+          {
+              "title": "ななにんです。しちにんです。",
+              "explanation": "Shichi nin desu. Nana nin desu. There're seven (people) in my family.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/かぞく/わたしの かぞくです.png",
+              "alt": "ななにんです。しちにんです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/かぞく/ななにんです.mp3"
+          }
+      ]
+  },
+  {
+      "name": "Describing Things",
+      "description": "",
+      "image": "/images/colored.png",
+      "items": [
+          {
+              "title": "しろい　シャツ。",
+              "explanation": "shiroi shatsu. White shirt.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/しろい　シャツ.png",
+              "alt": "しろい　シャツ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/しろいシャツ.mp3"
+          },
+          {
+              "title": "あおい ジーンズ。",
+              "explanation": "Aoi jīnzu. Blue Jeans.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/あおい ジーンズ.png",
+              "alt": "あおい ジーンズ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/あおいジーンズ.mp3"
+          },
+          {
+              "title": "くろい かさ。",
+              "explanation": "kuroi kasa. Black umbrella.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/くろい かさ.png",
+              "alt": "くろい かさ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/くろい かさ.mp3"
+          },
+          {
+              "title": "ちゃいろい くつ。",
+              "explanation": "Chairoi kutsu. Brown shoes.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/ちゃいろい くつ.png",
+              "alt": "ちゃいろい くつ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/ちゃいろいくつ.mp3"
+          },
+          {
+              "title": "きいろい ぼうし。",
+              "explanation": "Kiiroi boushi. Yelloow cap.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/きいろい ぼうし.png",
+              "alt": "きいろい ぼうし。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/きいろいぼうし.mp3"
+          },
+          {
+              "title": "みずいろの ソックス。",
+              "explanation": "Mizuiro no sokkusu. Light blue socks.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/みずいろの ソックス.png",
+              "alt": "みずいろの ソックス。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/みずいろのソックス.mp3"
+          },
+          {
+              "title": "ピンクの ドレス。",
+              "explanation": "Pinku no doresu. Pink dress.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/ピンクの ドレス.png",
+              "alt": "ピンクの ドレス。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/ピンクのドレス.mp3"
+          },
+          {
+              "title": "まるい ボール。",
+              "explanation": "Marui ball. Cubic Ball.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/まるい ボール.png",
+              "alt": "まるい ボール。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/まるいボール.mp3"
+          },
+          {
+              "title": "さんかくの やね。",
+              "explanation": "Sankaku no yane. Triangular Roof.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/さんかくの やね.png",
+              "alt": "さんかくの やね。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/さんかくのやね.mp3"
+          },
+          {
+              "title": "しかくい まど。",
+              "explanation": "Shikakui mado. Recyangular Window.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/しかくい まど.png",
+              "alt": "しかくい まど。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/しかくいまど.mp3"
+          },
+          {
+              "title": "みじかい えんぴつ。",
+              "explanation": "Mizikai enpitsu. Short pencil.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/みじかい えんぴつ.png",
+              "alt": "みじかい えんぴつ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/みじかいえんぴつ.mp3"
+          },
+          {
+              "title": "ながい えんぴつ。",
+              "explanation": "Nagai enpitsu. Long pencil.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/ながい えんぴつ.png",
+              "alt": "ながい えんぴつ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/ながい えんぴつ.mp3"
+          },
+          {
+              "title": "たくさん。",
+              "explanation": "Takusan. A lot.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/たくさん.png",
+              "alt": "たくさん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/たくさん.mp3"
+          },
+          {
+              "title": "すこし。",
+              "explanation": "Sukoshi. A few.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/すこし.png",
+              "alt": "すこし。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/すこし.mp3"
+          },
+          {
+              "title": "ぞう は おおきい です。",
+              "explanation": "Zou wa ooki desu. An elephant is big.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/ぞう は おおきい です.png",
+              "alt": "ぞう は おおきい です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/ぞう は おおきい です.mp3"
+          },
+          {
+              "title": "ねずみ は ちいさい です。",
+              "explanation": "Nezumi wa chiisai desu. A mouse is small.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/ねずみ は ちいさい です.png",
+              "alt": "ねずみ は ちいさい です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/ねずみ は ちいさい です.mp3"
+          },
+          {
+              "title": "いちごは あかい です。",
+              "explanation": "Ichigo wa akai desu. Strawberries are red.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/すこし.png",
+              "alt": "いちごは あかい です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/いちごは あかい です.mp3"
+          },
+          {
+              "title": "ぶどうは むらさき です。",
+              "explanation": "Budou wa murasaki desu. Grapes are purple.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/ぶどうは むらさき です.png",
+              "alt": "ぶどうは むらさき です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/ぶどうは むらさき です.mp3"
+          },
+          {
+              "title": "きゅうりは　みどり です。",
+              "explanation": "Kyuuri wa midori desu. Cucumbers are green.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/いろかたち/きゅうりは　みどり です.png",
+              "alt": "きゅうりは　みどり です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/いろかたち/きゅうりは　みどり です.mp3"
+          }
+      ]
+  },
+  {
+      "name": "Expressing Feelings",
+      "description": "",
+      "image": "/images/reaction.png",
+      "items": [
+          {
+              "title": "ありがとう。",
+              "explanation": "Arigatou. Thank you.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/ありがとう.jfif",
+              "alt": "ありがとう。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/ありがとう.mp3"
+          },
+          {
+              "title": "ありがとう ございます。",
+              "explanation": "Arigatō gozaimasu. (polite) Thank you very much.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/ありがとう ございます.png",
+              "alt": "ありがとう ございます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/ありがとうございます.mp3"
+          },
+          {
+              "title": "どういたしまして。",
+              "explanation": "Douitashimashite. You're welcome.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/どういたしまして.png",
+              "alt": "どういたしまして。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/どういたしまして.mp3"
+          },
+          {
+              "title": "ごめんなさい。",
+              "explanation": "gomennasai. I'm sorry.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/ごめんなさい.png",
+              "alt": "ごめんなさい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/ごめんなさい.mp3"
+          },
+          {
+              "title": "ごめんね。",
+              "explanation": "Gomenne. I'm sorry.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/ごめんね.png",
+              "alt": "ごめんね。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/ごめんね.mp3"
+          },
+          {
+              "title": "うれしい。",
+              "explanation": "ueshii. Happy.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/うれしい.png",
+              "alt": "うれしい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/うれしい.mp3"
+          },
+          {
+              "title": "かなしい。",
+              "explanation": "kanashii. Sad.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/かなしい.png",
+              "alt": "かなしい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/かなしい.mp3"
+          },
+          {
+              "title": "こわい。",
+              "explanation": "kowai. frightening.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/こわい.png",
+              "alt": "こわい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/こわい.mp3"
+          },
+          {
+              "title": "おこっている。",
+              "explanation": "okottuteiru. angry.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/おこっている.png",
+              "alt": "おこっている。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/おこっている.mp3"
+          },
+          {
+              "title": "たのしい。",
+              "explanation": "tanoshii. fun.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/きもち/たのしい.png",
+              "alt": "たのしい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/きもち/たのしい.mp3"
+          }
+      ]
+  },
+  {
+      "name": "My day at school",
+      "description": "",
+      "image": "/images/school.png",
+      "items": [
+          {
+              "title": "わたしの きょうしつです。",
+              "explanation": "Watashi no kyōshitsudesu. This is my classroom.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/わたしの きょうしつです.png",
+              "alt": "わたしの きょうしつです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/わたしのきょうしつです.mp3"
+          },
+          {
+              "title": "わたしの せんせいです。",
+              "explanation": "Watashi no senseidesu. This is my teacher.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/わたしの せんせいです.png",
+              "alt": "わたしの せんせいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/わたしのせんせいです.mp3"
+          },
+          {
+              "title": "わたしは せいとです。",
+              "explanation": "Watashi wa seito desu. I am a student",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/わたしは せいとです.png",
+              "alt": "わたしは せいとです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/わたしは せいと です.mp3"
+          },
+          {
+              "title": "わたしの ともだちです。",
+              "explanation": "Watashi no tomodachi desu. This is my friend.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/わたしの ともだちです.png",
+              "alt": "わたしの ともだちです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/わたしの ともだちです.mp3"
+          },
+          {
+              "title": "テキストを よみます。",
+              "explanation": "Tekisuto o yomimasu.I read the text.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/テキストを よみます.png",
+              "alt": "テキストを よみます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/テキストをよみます.mp3"
+          },
+          {
+              "title": "えをかきます。",
+              "explanation": "E o kakimasu. I draw a picture.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/えを かきます.png",
+              "alt": "えをかきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/えをかきます.mp3"
+          },
+          {
+              "title": "ひらがなをかきます。",
+              "explanation": "Hiragana o kakimasu. I write Hiragana.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/ひらがなを かきます.png",
+              "alt": "ひらがなをかきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/ひらがなをかきます.mp3"
+          },
+          {
+              "title": "えほんをみます。",
+              "explanation": "Ehon o mimasu. I look at the picture book.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/えほんを みます.png",
+              "alt": "えほんをみます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/えほんをみます.mp3"
+          },
+          {
+              "title": "べんきょうします。",
+              "explanation": "Benkyō shimasu. I study.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/べんきょうします.png",
+              "alt": "べんきょうします。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/べんきょうします.mp3"
+          },
+          {
+              "title": "わたしは ほんを よみます。",
+              "explanation": "Watashi wa hon o yomimasu. I read a book.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/わたしは ほんを よみます.png",
+              "alt": "わたしは ほんを よみます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/わたしはほんをよみます.mp3"
+          },
+          {
+              "title": "ともだちは  えを かきます。",
+              "explanation": "Tomodachi wa e o kakimasu. My friend draw pictures.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/ともだちは  えを かきます.png",
+              "alt": "ともだちは  えを かきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/ともだちはえをかきます.mp3"
+          },
+          {
+              "title": "せんせいは えを みます。",
+              "explanation": "Sensei wa e o mimasu. The teacher looks at the picture.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/せんせいは えを みます.png",
+              "alt": "せんせいは えを みます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/せんせいはえをみます.mp3"
+          },
+          {
+              "title": "あそぼう。",
+              "explanation": "Asobou. Let's play.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/あそぼう.png",
+              "alt": "あそぼう。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/あそぼう.mp3"
+          },
+          {
+              "title": "あそびましょう。",
+              "explanation": "Asobimashou. Let's play.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/がっこうのいちにち/あそびましょう.png",
+              "alt": "あそびましょう。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/がっこうのいちにち/あそびましょう.mp3"
+          }
+      ]
+  },
+  {
+      "name": "Polite Requests",
+      "description": "",
+      "image": "/images/asking.png",
+      "items": [
+          {
+              "title": "いえが ほしい です。",
+              "explanation": "Ie ga hoshii desu. We want a house.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/いえが ほしい です.png",
+              "alt": "いえが ほしい です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/いえがほしいです.mp3"
+          },
+          {
+              "title": "くるまが ほしい です。",
+              "explanation": "Kuruma ga hoshi desu. I want a car.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/くるまが ほしい です.png",
+              "alt": "くるまが ほしい です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/くるまがほしいです.mp3"
+          },
+          {
+              "title": "でんわが ほしいです。",
+              "explanation": "Denwa ga hoshii desu. I want a cell phone.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/でんわが ほしいです.png",
+              "alt": "でんわが ほしいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/でんわがほしいです.mp3"
+          },
+          {
+              "title": "はさみを ください。",
+              "explanation": "Hasami o kudasai. May I get Scissors?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/はさみを ください.png",
+              "alt": "はさみを ください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/はさみをください.mp3"
+          },
+          {
+              "title": "はい どうぞ。",
+              "explanation": "Hai douzo. Here it is.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/はさみを ください.png",
+              "alt": "はい どうぞ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/はいどうぞ.mp3"
+          },
+          {
+              "title": "ジュースを ください。",
+              "explanation": "Juice o kudasai. May I have some Juice?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/ジュースを ください.png",
+              "alt": "ジュースを ください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/ジュースをください.mp3"
+          },
+          {
+              "title": "アイスクリームを ください。",
+              "explanation": "Icecream o kudasai. May I get some Icecream?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/アイスクリームを ください.png",
+              "alt": "アイスクリームを ください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/アイスクリームをください.mp3"
+          },
+          {
+              "title": "いらっしゃいませ。",
+              "explanation": "Irasshaimase. Greeting, when welcoming a customer to a shop.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/いらっしゃいませ.png",
+              "alt": "いらっしゃいませ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/いらっしゃいませ.mp3"
+          },
+          {
+              "title": "おにぎりをください。",
+              "explanation": "Onigiri  o kudasai. Onigiri, Please.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/おにぎりをください.png",
+              "alt": "おにぎりをください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/おにぎりをください.mp3"
+          },
+          {
+              "title": "どれですか。",
+              "explanation": "Doredesuka. Which one is it?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/どれですか.png",
+              "alt": "どれですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/どれですか.mp3"
+          },
+          {
+              "title": "それを ください。",
+              "explanation": "Sore o kudasai. I'll take it.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/それをください.png",
+              "alt": "それを ください。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/それをください.mp3"
+          },
+          {
+              "title": "いくらですか。",
+              "explanation": "Ikuradesuka. How much is it?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/いくらですか.png",
+              "alt": "いくらですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/いくらですか.mp3"
+          },
+          {
+              "title": "２ドル です。",
+              "explanation": "Ni doru desu. Two dollars.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ほしい/２ドル です.png",
+              "alt": "２ドル です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/２ドルです.mp3"
+          }
+      ]
+  },
+  {
+      "name": "X is Y",
+      "description": "",
+      "image": "/images/pointing-hand.png",
+      "items": [
+          {
+              "title": "これは りんごです。",
+              "explanation": "Kore wa ringo desu. これ kore refers to a thing that is close to you, the speaker(\"this thing here\").",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/これは りんごです.png",
+              "alt": "これは りんごです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/これはりんごです.mp3"
+          },
+          {
+              "title": "あれは りんごです。",
+              "explanation": "Are wa ringo desu. あれ is referred to a thing that is neither close to the speaker nor the listener(\"that one over there\").",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/あれは りんごです.png",
+              "alt": "あれは りんごです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/あれはりんごです.mp3"
+          },
+          {
+              "title": "それは りんごです。",
+              "explanation": "So re wa ringo desu. それ sore is something that is close to the person you are talking to (\"that thing in front of you\").",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/それは りんごです.png",
+              "alt": "それは りんごです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/それはりんごです.mp3"
+          },
+          {
+              "title": "バナナ じゃないです。",
+              "explanation": "Banana janai desu. It's not a banana",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/バナナ じゃないです.png",
+              "alt": "バナナ じゃないです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/バナナじゃないです.mp3"
+          },
+          {
+              "title": "バナナじゃありません。",
+              "explanation": "Banana ja arimasen. It's not a banana.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/バナナ じゃないです.png",
+              "alt": "バナナじゃありません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/バナナじゃありません.mp3"
+          },
+          {
+              "title": "バナナでは ありません。",
+              "explanation": "Banana dewa arimasen. It's not a banana.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/バナナ じゃないです.png",
+              "alt": "バナナでは ありません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/バナナではありません.mp3"
+          },
+          {
+              "title": "これは　りんごですか。",
+              "explanation": "Kore wa ringo desu ka. Is this an apple? You can just add ka(か) at the end of a statement and turn it into a question.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/これはりんごですか.png",
+              "alt": "これは　りんごですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/これはりんごですか.mp3"
+          },
+          {
+              "title": "はい、そうです。",
+              "explanation": "Hai, so desu. Yes, it is.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/はいそうです・ええそうです.png",
+              "alt": "はい、そうです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/はいそうです.mp3"
+          },
+          {
+              "title": "ええ、そうです。",
+              "explanation": "Ee, so desu. Yes, it is.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/はいそうです・ええそうです.png",
+              "alt": "ええ、そうです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/ええそうです.mp3"
+          },
+          {
+              "title": "いいえ、ちがいます。",
+              "explanation": "Iie, chigai masu. No, it isn't.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/いいえ ちがいます・いいえそうではありません.png",
+              "alt": "いいえ、ちがいます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/いいえちがいます.mp3"
+          },
+          {
+              "title": "いいえ、そうでは ありません。",
+              "explanation": "Iie, so dewa arimasen. No, it isn't.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/いいえ ちがいます・いいえそうではありません.png",
+              "alt": "いいえ、そうでは ありません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/いいえそうではありません.mp3"
+          },
+          {
+              "title": "これは なんですか。",
+              "explanation": "Kore wa nan desu ka. What is this?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/これはなんですか.png",
+              "alt": "これは なんですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/これはなんですか.mp3"
+          },
+          {
+              "title": "それは ボール です。",
+              "explanation": "Sore wa ball desu. It is a ball.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/XはYです/ボールです.png",
+              "alt": "それは ボール です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/XはYです/それはボールです.mp3"
+          }
+      ]
+  },
+  {
+      "name": "Meal",
+      "description": "",
+      "image": "/images/iftar.png",
+      "items": [
+          {
+              "title": "あさ。",
+              "explanation": "Asa. Morning.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/あさ.png",
+              "alt": "あさ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/あさ.mp3"
+          },
+          {
+              "title": "ひる。",
+              "explanation": "Hiru. noon/daytime.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/ひる.png",
+              "alt": "ひる。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/ひる.mp3"
+          },
+          {
+              "title": "よる。",
+              "explanation": "Yoru. Night.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/よる.png",
+              "alt": "よる。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/よる.mp3"
+          },
+          {
+              "title": "あさごはん。",
+              "explanation": "Asa gohan. Breakfast.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/あさごはん.png",
+              "alt": "あさごはん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/あさごはん.mp3"
+          },
+          {
+              "title": "ひるごはん。",
+              "explanation": "Hiru gohan. Lunch.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/ひるごはん.png",
+              "alt": "ひるごはん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/ひるごはん.mp3"
+          },
+          {
+              "title": "ゆうごはん。ばんごはん。",
+              "explanation": "Yū gohan. Ban gohan. Dinner.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/ゆうごはん ばんごはん.png",
+              "alt": "ゆうごはん。ばんごはん。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/ゆうごはんばんごはん.mp3"
+          },
+          {
+              "title": "おやつ。",
+              "explanation": "Oyatsu. snack.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/おやつ.png",
+              "alt": "おやつ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/おやつ.mp3"
+          },
+          {
+              "title": "たべます。",
+              "explanation": "Tabemasu. eat.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/たべます.png",
+              "alt": "たべます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/たべます.mp3"
+          },
+          {
+              "title": "のみます。",
+              "explanation": "Nomimasu. drink.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/のみます.png",
+              "alt": "のみます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/のみます.mp3"
+          },
+          {
+              "title": "さかなを たべます。",
+              "explanation": "Sakana o tabemasu. I eat fish.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/さかなをたべます.png",
+              "alt": "さかなを たべます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/さかなをたべます.mp3"
+          },
+          {
+              "title": "おちゃを のみます。",
+              "explanation": "Ocha o nomimasu. I drink tea.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/おちゃをのみます.png",
+              "alt": "おちゃを のみます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/おちゃをのみます.mp3"
+          },
+          {
+              "title": "おいしい。",
+              "explanation": "Oishii. delicious/tasty.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/おいしい.png",
+              "alt": "おいしい。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/おいしい。.mp3"
+          },
+          {
+              "title": "ハンバーガーをたべます。",
+              "explanation": "Hanbāgā o tabemasu. I eat a hamburger.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/ハンバーガーをたべます.png",
+              "alt": "ハンバーガーをたべます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/ハンバーガーをたべます。.mp3"
+          },
+          {
+              "title": "やさいを たべません。",
+              "explanation": "Yasai o tabemasen. I don't eat vegetables.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/やさいを たべません.png",
+              "alt": "やさいを たべません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/やさいをたべません.mp3"
+          },
+          {
+              "title": "ミルクを のみます。",
+              "explanation": "Miruku o nomimasu. I drink milk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/ミルクをのみます.png",
+              "alt": "ミルクを のみます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/ミルクをのみます.mp3"
+          },
+          {
+              "title": "ビールを のみません。",
+              "explanation": "Bīru o nomimasen. I don't drink beer.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/しょくじ/ビールをのみません。.png",
+              "alt": "ビールを のみません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/しょくじ/ビールをのみません.mp3"
+          }
+      ]
+  },
+  {
+      "name": "There is(1)",
+      "description": "",
+      "image": "/images/books.png",
+      "items": [
+          {
+              "title": "ほんが あります。",
+              "explanation": "Hon ga arimasu. There is a book.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/ほんがあります.png",
+              "alt": "ほんが あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/ほんがあります.mp3"
+          },
+          {
+              "title": "ほんが ありません。",
+              "explanation": "Hon ga arimasen. There is no book.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/ほんがありません.png",
+              "alt": "ほんが ありません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/ほんがありません.mp3"
+          },
+          {
+              "title": "ぼうしが あります。",
+              "explanation": "Bōshi ga arimasu. There is a hat.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/ぼうしが あります.png",
+              "alt": "ぼうしが あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/ぼうしがあります.mp3"
+          },
+          {
+              "title": "ぼうしが ありません。",
+              "explanation": "Bōshi ga arimasen. There is no hat.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/ぼうしが ありません.png",
+              "alt": "ぼうしが ありません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/ぼうしがありません.mp3"
+          },
+          {
+              "title": "たべものが ありますか。",
+              "explanation": "Tabe mono ga arimasu ka. Is there food?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/たべものが ありますか.png",
+              "alt": "たべものが ありますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/たべものがありますか.mp3"
+          },
+          {
+              "title": "はい あります。",
+              "explanation": "Hai arimasu. Yes, there is.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/はい あります.png",
+              "alt": "はい あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/はいあります.mp3"
+          },
+          {
+              "title": "いいえ ありません。",
+              "explanation": "Iie arimasen. No, there isn't.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/いいえ ありません.png",
+              "alt": "いいえ ありません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/いいえありません.mp3"
+          },
+          {
+              "title": "なにが ありますか。",
+              "explanation": "Nani ga arimasu ka. What is there?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/なにがありますか.png",
+              "alt": "なにが ありますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/なにがありますか.mp3"
+          },
+          {
+              "title": "ジュースが あります。",
+              "explanation": "Jūsu ga arimasu. There is juice.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/じゅーすがあります.png",
+              "alt": "ジュースが あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/ジュースがあります.mp3"
+          },
+          {
+              "title": "うえ。",
+              "explanation": "Ue. on/above.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/うえ.png",
+              "alt": "うえ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/うえ.mp3"
+          },
+          {
+              "title": "した。",
+              "explanation": "Shita. under/below/beneath.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/した.png",
+              "alt": "した。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/した.mp3"
+          },
+          {
+              "title": "なか。",
+              "explanation": "Naka. in/inside.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/なか.png",
+              "alt": "なか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/なか.mp3"
+          },
+          {
+              "title": "つくえの うえ。",
+              "explanation": "Tukue no ue. On the desk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/つくえの うえ.png",
+              "alt": "つくえの うえ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/つくえのうえ.mp3"
+          },
+          {
+              "title": "つくえの した。",
+              "explanation": "Tukue no shita. Under the desk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/つくえの した.png",
+              "alt": "つくえの した。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/つくえのした.mp3"
+          },
+          {
+              "title": "はこのなか。",
+              "explanation": "Hako no naka. In the box.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/なか.png",
+              "alt": "はこのなか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/はこのなか.mp3"
+          },
+          {
+              "title": "ほんは つくえの うえに あります。",
+              "explanation": "Hon wa tsukue no ue ni arimasu. The book is on the desk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/ほんは つくえの うえに あります.png",
+              "alt": "ほんは つくえの うえに あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/ほんはつくえのうえにあります.mp3"
+          },
+          {
+              "title": "おもちゃは はこの なか あります。",
+              "explanation": "Omocha wa wa kono naka ni arimasu. The toys are in the box.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/おもちゃは はこの なか あります.png",
+              "alt": "おもちゃは はこの なか あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/おもちゃははこのなかあります.mp3"
+          },
+          {
+              "title": "りんごは つくえの したに あります。",
+              "explanation": "Ringo wa tsuku e no shita ni arimasu. The apple is under the desk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/あります/つくえの した.png",
+              "alt": "りんごは つくえの したに あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/あります/りんごはつくえのしたにあります.mp3"
+          }
+      ]
+  },
+  {
+      "name": "There is(2)",
+      "description": "",
+      "image": "/images/livestock.png",
+      "items": [
+          {
+              "title": "とりが います。",
+              "explanation": "Tori ga imasu. There is a bird.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/なにが いますか.png",
+              "alt": "とりが います。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/とりがいます.mp3"
+          },
+          {
+              "title": "とりが いません。",
+              "explanation": "Tori ga imasen. There is not a bird.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/とりが いません.png",
+              "alt": "とりが いません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/とりがいません.mp3"
+          },
+          {
+              "title": "いぬが います。",
+              "explanation": "Inu ga imasu. There is a dog.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/いぬが います.png",
+              "alt": "いぬが います。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/いぬがいます.mp3"
+          },
+          {
+              "title": "いぬが いません。",
+              "explanation": "Inu ga imasen. There is not a dog.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/いぬが いますか.png",
+              "alt": "いぬが いません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/いぬがいません.mp3"
+          },
+          {
+              "title": "なにがいますか。",
+              "explanation": "Nani ga imasu ka. What are there?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/なにが いますか.png",
+              "alt": "なにがいますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/なにがいますか.mp3"
+          },
+          {
+              "title": "きのしたにぞうがいます。",
+              "explanation": "Konoshita ni zō ga imasu. There is an elephant under the tree.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/なにが いますか.png",
+              "alt": "きのしたにぞうがいます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/きのしたにぞうがいます。.mp3"
+          },
+          {
+              "title": "きのうえにとりがいます。",
+              "explanation": "Ki no ue ni tori ga imasu. There are birds on the tree.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/なにが いますか.png",
+              "alt": "きのうえにとりがいます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/きのうえにとりがいます。.mp3"
+          },
+          {
+              "title": "あなのなかにりすがいます。",
+              "explanation": "Ana no naka ni risu ga imasu. There is a squirrel in the tree hole.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/なにが いますか.png",
+              "alt": "あなのなかにりすがいます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/あなのなかにりすがいます。.mp3"
+          },
+          {
+              "title": "ぞうが いますか。",
+              "explanation": "Zō ga imasu ka. Is there an elephant?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/なにが いますか.png",
+              "alt": "ぞうが いますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/ぞうがいますか.mp3"
+          },
+          {
+              "title": "はい、います。",
+              "explanation": "Hai, imasu. Yes, there is.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/なにが いますか.png",
+              "alt": "はい、います。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/はい います.mp3"
+          },
+          {
+              "title": "いぬが いますか。",
+              "explanation": "Inu ga imasu ka. Is there a dog?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/いぬが いますか.png",
+              "alt": "いぬが いますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/いぬがいますか.mp3"
+          },
+          {
+              "title": "いいえ、いません。",
+              "explanation": "Iie, imasen. No, there isn't.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/いぬが いますか.png",
+              "alt": "いいえ、いません。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/いいえいません.mp3"
+          },
+          {
+              "title": "まえ。",
+              "explanation": "mae. in front of.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/まえ.png",
+              "alt": "まえ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/まえ.mp3"
+          },
+          {
+              "title": "うしろ。",
+              "explanation": "ushiro. behind.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/うしろ.png",
+              "alt": "うしろ。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/うしろ.mp3"
+          },
+          {
+              "title": "うさぎは くまの まえに います。",
+              "explanation": "Usagi wa kuma no mae ni imasu. The rabbit is in front of the bear.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/animal_dance.png",
+              "alt": "うさぎは くまの まえに います。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/うさぎはくまのまえにいます.mp3"
+          },
+          {
+              "title": "いぬは ねこの うしろにいます。",
+              "explanation": "Inu wa neko no ushiro ni imasu. The dog is behind the cat.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/います/animal_dance.png",
+              "alt": "いぬは ねこの うしろにいます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/います/いぬはねこのうしろにいます.mp3"
+          }
+      ]
+  },
+  {
+      "name": "Like and Hate",
+      "description": "",
+      "image": "/images/star.png",
+      "items": [
+          {
+              "title": "すきです。",
+              "explanation": "Suki desu. I like.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/だいすきです.png",
+              "alt": "すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/すきです。.mp3"
+          },
+          {
+              "title": "やきゅうが すきです。",
+              "explanation": "Yakyū ga sukidesu. I like baseball.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/やきゅうが すきです.png",
+              "alt": "やきゅうが すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/やきゅうがすきです.mp3"
+          },
+          {
+              "title": "けんどうが すきです。",
+              "explanation": "Kendō ga sukidesu. I like kendo.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/けんどうが すきです.png",
+              "alt": "けんどうが すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/けんどうがすきです.mp3"
+          },
+          {
+              "title": "すもうが すきです。",
+              "explanation": "Sumou ga sukidesu. I like sumo.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/すもうが すきです.png",
+              "alt": "すもうが すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/すもうがすきです.mp3"
+          },
+          {
+              "title": "バスケットボールが すきです。",
+              "explanation": "Basukettobōru ga sukidesu. I like basketball.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/バスケットボールが すきです.png",
+              "alt": "バスケットボールが すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/バスケットボールがすきです.mp3"
+          },
+          {
+              "title": "サッカーが すきです。",
+              "explanation": "Sakkā ga sukidesu. I like soccer.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/サッカーが すきです.png",
+              "alt": "サッカーが すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/サッカーがすきです.mp3"
+          },
+          {
+              "title": "やさいが すきです。",
+              "explanation": "Yasai ga suki desu. I like vegetables.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/やさいがすきです.png",
+              "alt": "やさいが すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/やさいがすきです.mp3"
+          },
+          {
+              "title": "きらいです。",
+              "explanation": "Kirai desu. I hate.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/きらいです.png",
+              "alt": "きらいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/きらいです.mp3"
+          },
+          {
+              "title": "やさいが きらいです。",
+              "explanation": "Yasai ga kirai desu. I hate vegetables.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/やさいがきらいです.png",
+              "alt": "やさいが きらいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/やさいがきらいです.mp3"
+          },
+          {
+              "title": "すきじゃないです。",
+              "explanation": "Suki Janai desu. I don't like it.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/すきじゃないです.png",
+              "alt": "すきじゃないです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/すきじゃないです.mp3"
+          },
+          {
+              "title": "だいすきです。",
+              "explanation": "Daisuki desu. I love.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/だいすきです.png",
+              "alt": "だいすきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/だいすきです.mp3"
+          },
+          {
+              "title": "ハンバーガーが だいすきです。",
+              "explanation": "Hanbāgā ga dai sukidesu. I love hamburgers.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/ハンバーガーがだいすきです.png",
+              "alt": "ハンバーガーが だいすきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/ハンバーガーがだいすきです.mp3"
+          },
+          {
+              "title": "ピンクが いちばん すきです。",
+              "explanation": "Pinku ga ichiban sukidesu. I like pink the best.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/ピンクが いちばん すきです.png",
+              "alt": "ピンクが いちばん すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/ピンクがいちばんすきです。.mp3"
+          },
+          {
+              "title": "きいろが いちばん すきです。",
+              "explanation": "Kiiro ga ichiban sukidesu.I like yellow the best.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/きいろが いちばん すきです.png",
+              "alt": "きいろが いちばん すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/きいろがいちばんすきです.mp3"
+          },
+          {
+              "title": "いぬが いちばん すきです。",
+              "explanation": "Inu ga ichiban sukidesu.I like dogs the best.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/すきです/いぬが いちばんすきです.png",
+              "alt": "いぬが いちばん すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/すきです/いぬがいちばんすきです.mp3"
+          }
+      ]
+  },
+  {
+      "name": "Place and Transportation",
+      "description": "",
+      "image": "/images/vehicle.png",
+      "items": [
+          {
+              "title": "わたしは がっこうに いきます。",
+              "explanation": "Watashi wa gakkō ni ikimasu. I go to school.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/がっこういきます.png",
+              "alt": "わたしは がっこうに いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/わたしはがっこうにいきます。.mp3"
+          },
+          {
+              "title": "おかあさんは みせに いきます。",
+              "explanation": "Okāsan wa mise ni ikimasu. Mom goes to the store.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/おかあさんは みせに いきます.png",
+              "alt": "おかあさんは みせに いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/おかあさんはみせにいきます.mp3"
+          },
+          {
+              "title": "ともだちは うみに いきます。",
+              "explanation": "Tomodachi wa umi ni ikimasu. My friends go to the sea.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/ともだちはうみにいきます.png",
+              "alt": "ともだちは うみに いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/ともだちはうみにいきます.mp3"
+          },
+          {
+              "title": "ぼくは やまに いきます。",
+              "explanation": "Boku wa yama ni ikimasu. I go to the mountains.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/ぼくは やまに いきます.png",
+              "alt": "ぼくは やまに いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/ぼくはやまにいきます.mp3"
+          },
+          {
+              "title": "わたしは じてんしゃに のります。",
+              "explanation": "Watashi wa jitensha ni norimasu. I ride a bicycle.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/わたしは じてんしゃに のります.png",
+              "alt": "わたしは じてんしゃに のります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/わたしはじてんしゃにのります.mp3"
+          },
+          {
+              "title": "おねえさんは うまに のります。",
+              "explanation": "Onēsan wa uma ni norimasu. My older sister rides a horse.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/おねえさんは うまに のります.png",
+              "alt": "おねえさんは うまに のります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/おねえさんはうまにのります.mp3"
+          },
+          {
+              "title": "ぼくは バスに のります。",
+              "explanation": "Boku wa basu ni norimasu. I get on the bus.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/ぼくは バスに のります.png",
+              "alt": "ぼくは バスに のります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/ぼくはバスにのります.mp3"
+          },
+          {
+              "title": "ふねで いきます。",
+              "explanation": "Fune de ikimasu. I go by ship.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/ふねでいきます.png",
+              "alt": "ふねで いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/ふねでいきます.mp3"
+          },
+          {
+              "title": "ひこうきで いきます。",
+              "explanation": "Hikōki de ikimasu. I go by plane.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/ひこうきでいきます.png",
+              "alt": "ひこうきで いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/ひこうきでいきます.mp3"
+          },
+          {
+              "title": "くるまで いきます。",
+              "explanation": "Kuruma de ikimasu. I go by car.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/ばしょ/くるまでいきます.png",
+              "alt": "くるまで いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ばしょ/くるまでいきます.mp3"
+          }
+      ]
+  },
+  {
+      "name": "What Who Where",
+      "description": "",
+      "image": "/images/question (1).png",
+      "items": [
+          {
+              "title": "なんですか。",
+              "explanation": "Nan desuka. What is it?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なんですか あたまです.png",
+              "alt": "なんですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/なんですか.mp3"
+          },
+          {
+              "title": "あたま です。",
+              "explanation": "Atama desu. It's a head.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なんですか あたまです.png",
+              "alt": "あたま です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/あたまです.mp3"
+          },
+          {
+              "title": "なんですか。",
+              "explanation": "Nan desuka.What is it?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なんですか てです.png",
+              "alt": "なんですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/なんですか.mp3"
+          },
+          {
+              "title": "て です。",
+              "explanation": "Te desu. It's a hand.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なんですか てです.png",
+              "alt": "て です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/てです.mp3"
+          },
+          {
+              "title": "なんですか。",
+              "explanation": "Nan desuka.What is it?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なんですか　あしです.png",
+              "alt": "なんですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/なんですか.mp3"
+          },
+          {
+              "title": "あし です。",
+              "explanation": "Ashi desu.It's a foot.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なんですか　あしです.png",
+              "alt": "あし です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/あしです.mp3"
+          },
+          {
+              "title": "なにを たべますか。",
+              "explanation": "Nani o tabemasu ka. What do you eat?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なにをたべますか　ハンバーガー.png",
+              "alt": "なにを たべますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/なにをたべますか.mp3"
+          },
+          {
+              "title": "ハンバーガーを たべます。",
+              "explanation": "Hanbāgā o tabemasu. I eat a hamburger.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なにをたべますか　ハンバーガー.png",
+              "alt": "ハンバーガーを たべます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/ハンバーガーをたべます.mp3"
+          },
+          {
+              "title": "なにを のみますか。",
+              "explanation": "Nani o nomimasu ka. What do you drink?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/ミルクをのみます.png",
+              "alt": "なにを のみますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/なにをのみますか.mp3"
+          },
+          {
+              "title": "ミルクを のみます。",
+              "explanation": "Miruku o nomimasu. I drink milk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/ミルクをのみます.png",
+              "alt": "ミルクを のみます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/ミルクをのみます.mp3"
+          },
+          {
+              "title": "なにが すきですか。",
+              "explanation": "Nani ga sukidesu ka. What do you like?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なにがすきですか　いぬがすきです.png",
+              "alt": "なにが すきですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/なにがすきですか.mp3"
+          },
+          {
+              "title": "いぬが すきです。",
+              "explanation": "Inu ga sukidesu. I like dogs.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なにがすきですか　いぬがすきです.png",
+              "alt": "いぬが すきです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/いぬがすきです.mp3"
+          },
+          {
+              "title": "なにが ほしいですか。",
+              "explanation": "Nani ga hoshīdesu ka. What do you want?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なにがほしいですか。くるまがほしいです。.png",
+              "alt": "なにが ほしいですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/なにがほしいですか.mp3"
+          },
+          {
+              "title": "くるまが ほしいです。",
+              "explanation": "Kuruma ga hoshii desu. I want a car.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/なにがほしいですか。くるまがほしいです。.png",
+              "alt": "くるまが ほしいです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/ほしい/くるまがほしいです.mp3"
+          },
+          {
+              "title": "だれですか。",
+              "explanation": "Dare desu ka. who?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/だれですか。せんせいです。.png",
+              "alt": "だれですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/だれですか.mp3"
+          },
+          {
+              "title": "せんせい です。",
+              "explanation": "Sensei desu. She is a teacher.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/だれですか。せんせいです。.png",
+              "alt": "せんせい です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/せんせいです.mp3"
+          },
+          {
+              "title": "だれですか。",
+              "explanation": "Dare desu ka. who?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/おかあさんです.png",
+              "alt": "だれですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/だれですか.mp3"
+          },
+          {
+              "title": "おかあさん です。",
+              "explanation": "Okāsan desu. She is a mom.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/おかあさんです.png",
+              "alt": "おかあさん です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/おかあさんです.mp3"
+          },
+          {
+              "title": "だれですか。",
+              "explanation": "Dare desu ka. who?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/おとうさんです.png",
+              "alt": "だれですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/だれですか.mp3"
+          },
+          {
+              "title": "おとうさん です。",
+              "explanation": "Otousan desu. He is a dad.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/おとうさんです.png",
+              "alt": "おとうさん です。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/おとうさんです.mp3"
+          },
+          {
+              "title": "どこに いきますか。",
+              "explanation": "Doko ni ikimasu ka. Where are you going?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/がっこうへいきます.png",
+              "alt": "どこに いきますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/どこにいきますか.mp3"
+          },
+          {
+              "title": "がっこうに いきます。",
+              "explanation": "Gakkō ni ikimasu. I go to school.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/がっこうへいきます.png",
+              "alt": "がっこうに いきます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/がっこうにいきます.mp3"
+          },
+          {
+              "title": "ほんは どこに ありますか。",
+              "explanation": "Hon wa doko ni arimasu ka. Where is the book?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/ほんはどこにありますか.png",
+              "alt": "ほんは どこに ありますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/ほんはどこにありますか.mp3"
+          },
+          {
+              "title": "ほんは つくえの うえに あります。",
+              "explanation": "Hon wa tsuku e no ue ni arimasu. The book is on the desk.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/ほんはどこにありますか.png",
+              "alt": "ほんは つくえの うえに あります。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/ほんはつくえのうえにあります.mp3"
+          },
+          {
+              "title": "おとこのこは どこに いますか。",
+              "explanation": "Otoko no ko wa doko ni imasu ka. Where is the boy?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/おとこのこはどこにいますか.png",
+              "alt": "おとこのこは どこに いますか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/おとこのこはどこにいますか.mp3"
+          },
+          {
+              "title": "おとこのこは きの したにいます。",
+              "explanation": "Otoko no ko wa Kino shita ni imasu. The boy is under the tree.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なに なん だれ どこ/おとこのこはどこにいますか.png",
+              "alt": "おとこのこは きの したにいます。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なに なん だれ どこ/おとこのこはきのしたにいます.mp3"
+          }
+      ]
+  },
+  {
+      "name": "TIME And Day",
+      "description": "",
+      "image": "/images/clock.png",
+      "items": [
+          {
+              "title": "なんじですか。",
+              "explanation": "Nanji desuka.What time is it?",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/なんじですか.png",
+              "alt": "なんじですか。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/なんじですか.mp3"
+          },
+          {
+              "title": "いちじです。",
+              "explanation": "Ichiji desu. It's 1 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0100.png",
+              "alt": "いちじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/いちじです.mp3"
+          },
+          {
+              "title": "にじです。",
+              "explanation": "Niji desu. It's 2 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0200.png",
+              "alt": "にじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/にじです.mp3"
+          },
+          {
+              "title": "さんじです。",
+              "explanation": "Sanji desu. It's 3 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0300.png",
+              "alt": "さんじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/さんじです.mp3"
+          },
+          {
+              "title": "よじです。",
+              "explanation": "Yoji desu. It's 4 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0400.png",
+              "alt": "よじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/よじです.mp3"
+          },
+          {
+              "title": "ごじです。",
+              "explanation": "Goji desu. It's 5 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0500.png",
+              "alt": "ごじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/ごじです.mp3"
+          },
+          {
+              "title": "ろくじです。",
+              "explanation": "Rokuji desu. It's 6 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0600.png",
+              "alt": "ろくじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/ろくじです.mp3"
+          },
+          {
+              "title": "しちじです。",
+              "explanation": "Shichiji desu. It's 7 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0700.png",
+              "alt": "しちじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/しちじです.mp3"
+          },
+          {
+              "title": "はちじです。",
+              "explanation": "Hachiji desu. It's 8 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0800.png",
+              "alt": "はちじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/はちじです.mp3"
+          },
+          {
+              "title": "くじです。",
+              "explanation": "Kuji desu. It's 9 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_0900.png",
+              "alt": "くじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/くじです.mp3"
+          },
+          {
+              "title": "じゅうじです。",
+              "explanation": "Juuji desu. It's 10 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_1000.png",
+              "alt": "じゅうじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/じゅうじです.mp3"
+          },
+          {
+              "title": "じゅういちじです。",
+              "explanation": "Juuichiji desu. It's 11 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_1100.png",
+              "alt": "じゅういちじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/じゅういちじです.mp3"
+          },
+          {
+              "title": "じゅうにじです。",
+              "explanation": "Juuniji desu. It's 12 o'clock.",
+              "image": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/images/なんじですか/clock_1200.png",
+              "alt": "じゅうにじです。",
+              "audioSrc": "https://skgo-resources2025.s3.us-west-1.amazonaws.com/Expressions/Audio/なんじですか/じゅうにじです.mp3"
+          }
+      ]
+  }
 ]

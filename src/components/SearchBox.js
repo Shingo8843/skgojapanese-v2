@@ -64,7 +64,7 @@ export default function SearchBox({ items, placeholder = "Search slides..." }) {
       {/* Modal */}
       {selectedSlide && (
         <Modal onClose={() => setSelectedSlide(null)}>
-          <div className="p-6 h-full w-full">
+          <div className="p-0 h-full w-full">
             <h2 className="text-2xl font-bold mb-4">{selectedSlide.name}</h2>
             <iframe
               src={selectedSlide.embedLink}

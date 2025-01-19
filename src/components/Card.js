@@ -43,7 +43,7 @@ export default function Card({
       {title && (
       <div className="absolute bottom-0 left-0 w-full p-2 bg-white bg-opacity-70 backdrop-blur-sm rounded-b-lg">
         <h3 className="text-sm sm:text-base font-bold">{title}</h3>
-        <p className="text-xs sm:text-sm text-gray-600">{description}</p>
+        <p className="text-xs sm:text-sm text-gray-600 hidden md:block">{description}</p>
       </div>
       )}
       {/* Hidden Audio Element */}

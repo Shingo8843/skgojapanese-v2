@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: false, // Disables dark mode
   content: [
     './src/**/*.{js,jsx,ts,tsx,mdx}', // Match all relevant files in the src folder
     './pages/**/*.{js,jsx,ts,tsx}',    // Include files in the pages directory (Next.js)

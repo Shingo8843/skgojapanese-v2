@@ -19,7 +19,7 @@ export default function CategoryPage({ params: paramsPromise }) {
 
   // Find the selected category (case-insensitive)
   const selectedCategory = CultureSection?.categories.find(
-    (cat) => cat.name.toLowerCase() === category?.toLowerCase().replace("%20", " ").replace("-", " ")
+    (cat) => cat.name.toLowerCase() === category?.toLowerCase().replaceAll("%20", " ").replaceAll("-", " ")  
   );
 
   // Modal state for slides
@@ -41,7 +41,7 @@ export default function CategoryPage({ params: paramsPromise }) {
   }
 
   return (
-    <main className="p-8">
+    <main className="px-4 md:px-8 lg:px-16 py-8">
       <h1 className="text-3xl font-bold mb-6">{selectedCategory.name}</h1>
       <p className="mb-6">Explore items in {selectedCategory.name}</p>
       <CategoryNavigator data={CultureSection.categories} currentCategory={selectedCategory.name} baseURL="/culture" />
@@ -62,7 +62,7 @@ export default function CategoryPage({ params: paramsPromise }) {
       {/* Modal */}
       {selectedSlide && (
         <Modal onClose={() => setSelectedSlide(null)}>
-          <div className="p-6 h-full w-full">
+          <div className="p-0 h-full w-full">
             <h2 className="text-2xl font-bold mb-4">{selectedSlide.name}</h2>
             <iframe
               src={selectedSlide.embedLink}

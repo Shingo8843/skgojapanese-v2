@@ -22,7 +22,7 @@ export default function HiraganaKatakana() {
   };
   const currentSection = sections.find((section) => section.name === "Language");
   return (
-    <main className="p-8">
+    <main className="px-4 md:px-8 lg:px-16 py-8">
       <h1 className="text-3xl font-bold mb-6">Hiragana & Katakana</h1>
       <CategoryNavigator data={currentSection.subsections} currentCategory={"Hiragana & Katakana"} baseURL="/language" />
       <h2 className="text-5xl font-bold mb-4 text-center sm:pt-8 lg:pt-16">Hiragana</h2>

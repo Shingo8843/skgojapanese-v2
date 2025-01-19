@@ -3,6 +3,7 @@
       "name": "Language",
       "description": "Learn vocabulary, expressions, and Japanese writing.",
       "href": "/language",
+      "image": "/images/books.png",
       "subsections": [
         {
           "name": "Vocabulary",
@@ -28,18 +29,19 @@
       "name": "Games",
       "description": "Interactive games to practice and improve your Japanese.",
       "href": "/games",
+      "image": "/images/card-games.png",
       "subsections": [
         {
           "name": "Matching Game",
           "description": "Test your memory by matching two identical images.",
           "href": "/games/matching-game",
-          "image": "/images/matching-game.jpg"
+          "image": "/images/electric-match.png"
         },
         {
           "name": "Memory Game",
           "description": "Sharpen your memory by finding pairs of images",
           "href": "/games/memory-game",
-          "image": "/images/memory-game.jpg"
+          "image": "/images/memory-game.png"
         }
       ]
     },
@@ -47,7 +49,46 @@
       "name": "Culture",
       "description": "Explore the traditions and various aspects of Japanese culture.",
       "href": "/culture",
+      "image": "/images/temple.png",
       "categories": [
+        {
+          "name": "Writing System",
+          "image": "/images/calligraphy.png",
+          "items": [
+            {
+              "name": "Japanese writing system",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRFafnkeaSHDdD8x0K5shLrmOglGhj3Df6rlbciwctXEOARE175Oefpc0VT7iFL83GWEgvBqJhsUVPi/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/japanesewritingsystem-1.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Sounds Of Japanese",
+          "image": "/images/pronounce.png",
+          "items": [
+            {
+              "name": "Japanese Kana sound",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQMXoD3HY9E4pnVFlPry-nqN63_QI3ztPL5eF-2AkUWbKgAnBH1eX_Z2gn1bQ8HqfArviDse6begPbF/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/soundsofjapanese-1.jpg"
+            },
+            {
+              "name": "Japanese Sound & Proninciation",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTonH167bHQr-P3dsMro7nn-duOad7LiOnGrrm4dFWQth_bd7ZN6Zb5epMncYVrJ0_BFVRX-j4mDWFe/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/soundsofjapanese-2.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Time Expressions",
+          "image": "/images/clock.png",
+          "items": [
+            {
+              "name": "Timing in Japanese ",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQ6rMTY2OX9KBccF9J_5L0kVTXhvkSukRiksoTTtwBBri9ZqpX3KLeFJ-S1CUFYt112RYG7ZXRL9KfD/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/timeexpressions-1.jpg"
+            }
+          ]
+        },
         {
           "name": "Count",
           "image": "/images/number-blocks.png",
@@ -321,33 +362,6 @@
           ]
         },
         {
-          "name": "Japanese Writing System",
-          "image": "/images/calligraphy.png",
-          "items": [
-            {
-              "name": "Japanese writing system",
-              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRFafnkeaSHDdD8x0K5shLrmOglGhj3Df6rlbciwctXEOARE175Oefpc0VT7iFL83GWEgvBqJhsUVPi/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/japanesewritingsystem-1.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Sounds Of Japanese",
-          "image": "/images/pronounce.png",
-          "items": [
-            {
-              "name": "Japanese Kana sound",
-              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQMXoD3HY9E4pnVFlPry-nqN63_QI3ztPL5eF-2AkUWbKgAnBH1eX_Z2gn1bQ8HqfArviDse6begPbF/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/soundsofjapanese-1.jpg"
-            },
-            {
-              "name": "Japanese Sound & Proninciation",
-              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTonH167bHQr-P3dsMro7nn-duOad7LiOnGrrm4dFWQth_bd7ZN6Zb5epMncYVrJ0_BFVRX-j4mDWFe/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/soundsofjapanese-2.jpg"
-            }
-          ]
-        },
-        {
           "name": "Sports",
           "image": "/images/samurai.png",
           "items": [
@@ -355,17 +369,6 @@
               "name": "SUMO すもう",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRhMK_NE0lwSd2fgA-IbrQtV5HHV4t_HhNPbZia4YmDB8Tia7nzlHNP2GSC97r4Lk8jYaVm8WQR0yE4/embed?start=false&loop=false&delayms=3000&rm=minimal",
               "image": "/images/sports-1.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Time Expressions",
-          "image": "/images/clock.png",
-          "items": [
-            {
-              "name": "Timing in Japanese ",
-              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQ6rMTY2OX9KBccF9J_5L0kVTXhvkSukRiksoTTtwBBri9ZqpX3KLeFJ-S1CUFYt112RYG7ZXRL9KfD/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/timeexpressions-1.jpg"
             }
           ]
         },
@@ -406,152 +409,192 @@
       "name": "Pop Culture",
       "description": "Dive into anime, manga, and modern Japanese entertainment.",
       "href": "/pop-culture",
+      "image": "/images/demonslayer.jpg",
       "categories": [
         {
           "name": "Character Origami",
-          "image": "/images/characterorigami-category.jpg",
+          "image": "/images/Makurokurosuke.png",
           "items": [
             {
               "name": "まっくろくろすけ",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRxyyZKqMxMRdTk_LLY_3JLWpkHQz9h8km5BUD9uklZcRURc489JAVxUNppmepAcdGRSZTCXE-RUHT0/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/characterorigami-1.jpg"
+              "image": "/images/Makurokurosuke.png"
             },
             {
               "name": "Small Totoro",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vSi0cGNhhUaVnay2ksZ4McxuI5Cbmf0jOgpvA0nX0zflooX8Yz2iOEoQrh0HMu8rcqXHVkBNLcsaiVZ/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/characterorigami-2.jpg"
+              "image": "/images/SmallTotoro.png"
             },
             {
               "name": "Big Totoro",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vR5ti5rNJWkPevrIEdcIYq9tfIrvPD5ZfcX-MA9yEDjyQoAyZroIisYpw9zlmOSAJlBthzmXVJwNP-O/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/characterorigami-3.jpg"
+              "image": "/images/BigTotoro.png"
             }
           ]
         },
         {
           "name": "3D Origami",
-          "image": "/images/3dorigami-category.jpg",
+          "image": "/images/Origami_Rittai.png",
           "items": [
             {
               "name": "BiPyramid",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTNccMDuJLX1JfWzl4-cgcapT8V-b_ic993XVzcal4nVsQFpleHA-dNKehFNnUYYO6IfAbcPTI7Xpt8/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/3dorigami-1.jpg"
+              "image": "/images/Origami_Rittai.png"
             }
           ]
         },
         {
           "name": "Easy Origami",
-          "image": "/images/easyorigami-category.jpg",
+          "image": "/images/EasyHalloween.png",
           "items": [
             {
               "name": "ハロウィンおりがみ Easy Holloween origami",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTbl10Nk27O9G0bLpKO8AxmUIktlLR_Ox9OoeTrzKLjhcuaP4z9CQg3o_YXMhYccfRAKWdVGIwRRTFS/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/easyorigami-1.jpg"
+              "image": "/images/EasyHalloween.png"
             },
             {
               "name": "おにぎり Easy Rice Ball",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQ4WzMDhp5byZTmaJLgizzSVHMyJOgOAkevsWlQ39WhZcbWRB0q3BUhWemF38blYiz42_KpKM3z3tNw/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/easyorigami-2.jpg"
+              "image": "/images/Origami_Onigiri.png"
+            },
+            {
+              "name": "Simple Koi Nobori Origami",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQoULpRyqzrJzZJXgkK7C-ZRVohGEXERlMnJnypR5ietYoiwmvfZIUhSFyu8-myGbAi0Y2a7BlZuU93/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/Koinobori.png"
             }
           ]
         },
         {
           "name": "Crafting",
-          "image": "/images/crafting-category.jpg",
+          "image": "/images/IMG_0650.png",
           "items": [
             {
               "name": "Simple Mt. Fuji",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vR8NyCcEEBLrD-fo1x45b1A9w4I5sfSoQpfc-1F_CHXlm5USnVVUUSnAUPnJo9yk4PdGd86_tW4lLgx/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/crafting-1.jpg"
+              "image": "/images/IMG_0650.png"
             },
             {
               "name": "Simple Rabbit",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vSxdspLuyF0Bg2NlDMaywjNS1X92HSFbFEa83m8zX_VkJ25527XoIgM84fpzQURME3c8r6x2vauLX09/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/crafting-2.jpg"
+              "image": "/images/IMG_0683.png"
             },
             {
               "name": "How to draw Otukimi Rabbit つきの うさぎ",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQS5FR7mXtpBKhg_73Vv04nI8NYkBXFZfusH-YvitLwVyQpMy7Twty3zmYDnjqm5MvrnVMqUGwvkNrQ/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/crafting-3.jpg"
+              "image": "/images/OtukimiRabbit.png"
             },
             {
               "name": "Teru-Teru",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTYAFTUFJnJKglKGoQv01v9gcckyOBzzJCwcYjXLznp_WAdVf2UWaFgsiL9fKUYyE_b3WOYpgGvPI1d/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/crafting-4.jpg"
+              "image": "/images/Origami_TeruTeru.png"
+            },
+            {
+              "name": "Draw a character from a Mario game",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTYAFTUFJnJKglKGoQv01v9gcckyOBzzJCwcYjXLznp_WAdVf2UWaFgsiL9fKUYyE_b3WOYpgGvPI1d/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/placeholder.png"
+            },
+            {
+              "name": "かぶと Drawing",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTgQ6u7NQdLnUEGTrrFMDA0tB7tI0BusQk4zC7QLnjh3WrmHwyRWBxjFvJiIYK1TEtIh-TuCwIVSEof/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/Kabuto.png"
+            },
+            {
+              "name": "こいのぼり Drawing",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRZKRxY9HuwgJ3yJA7zy-cyAz7Ngt3CKHx0fG0KloS-OEWqOUoxCrUs4dnMfbtt-QjT7-0UCYWKEFUQ/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/Koinobori-Drawing.png"
+            },
+            {
+              "name": "Simple Ohinasama おひなさま & Odairisama おだいりさま",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTO9ZVUskcBkE7wKO--2FkQrP-cf1pqGmibHWdrj0omZxRtSCzZ4_Cs12vcL72QuE9XAf0_52Ipu4zD/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/Hina.png"
+            },
+            {
+              "name": "せつぶん</br>Setubun",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQqd-3fAKoJ9jVlmPHKhE6TVZ8Rzl7S7xNytkDhj8Z9Cq6KPsJp_VtGb_KRRkvCdqTFJCCbSsKwr4sE/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/Setubun.png"
+            },
+            {
+              "name": "Simple Cute Kimono Girl & Boy",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQXKPWhvXL1wYiHc_ZDVbvf3jRKz-Qz4RKHJ-QYnhtCSYOHWQQaKOfiY4H4_4CFPyE3aGxx70IEku6i/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/KimonoBoyGirl.png"
+            },
+            {
+              "name": "Japanese New Year Post Card",
+              "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRnH_shwMzq0y1dGT9bQNFNaCXKQ2SWo2_vDKRxVQaA_joRFOOPzmT3qo0ooMurishcUBuFZLg8-GCY/embed?start=false&loop=false&delayms=3000&rm=minimal",
+              "image": "/images/NewYearPostCard.png"
             }
           ]
         },
         {
           "name": "Ghibli",
-          "image": "/images/ghibli-category.jpg",
+          "image": "/images/_Complete grammar guide, My Neighbor Totoro _ Stroll_　さんぽ.png",
           "items": [
             {
-              "name": " Complete grammar guide, My Neighbor Totoro \"Stroll\" さんぽ",
+              "name": "Complete grammar guide, My Neighbor Totoro Song \"Stroll\" ",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTYbXfCHQPDtsVD7cTvViIAT-wDJAeoHCe-u8sS2pVtLBT3MAmMYXGQq87_oUc94Z9M0G_KoUldqY9f/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/ghibli-1.jpg"
+              "image": "/images/_Complete grammar guide, My Neighbor Totoro _ Stroll_　さんぽ.png"
             },
             {
               "name": "Spirited Away",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vS9xyHg-5RYEaOLEem8DdxQ0QwvcSEaC7FWZ1kfqOGTajTwHQ4WvErszPrERRWbl-vKp3232JaW6_dd/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/ghibli-2.jpg"
+              "image": "/images/Spirited Away, Japanese Mythical Creatures in Spirited Away.png"
             },
             {
               "name": "Princess Mononoke",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vR4PBg4c743SygPzKwM-i62qFGgBNpOS0PVzgKFKr2l1JxQdo5P1dubuCe-v0sAlVJsq_ugyBxzzJA2/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/ghibli-3.jpg"
+              "image": "/images/Princess Mononoke, Japanese Mythical Creatures in Princess Mononoke.png"
             }
           ]
         },
-    
         {
           "name": "Demon Slayer",
-          "image": "/images/demonslayer-category.jpg",
+          "image": "/images/Japanese swords in Japanese Manga & Anime 日本刀とポップカルチャー.png",
           "items": [
             {
               "name": "滝行 Takigyo, Japan's Ancient Art of Waterfall Meditation",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTtHg03lEQf-OxkaubgkYTFQsHv6y9wlwEsRw12MY_2nuuU0WBMt38w4hZYFKG94XO9po3fkLS_acbD/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/demonslayer-1.jpg"
+              "image": "/images/滝行 Takigyo, Japan’s Ancient Art of Waterfall Meditation　.png"
             },
             {
-              "name": "Japanese swords in Japanese Manga & Anime 日本刀とポップカルチャー",
+              "name": "Japanese swords in Japanese Manga & Anime",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTavbUD1V2VTQmkLVI8Ex3YsxS9ORD95h1tM4vabP8wVuYmWR2G0l47sXbqQr22vCNb4Sj5axJe-O2L/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/demonslayer-2.jpg"
+              "image": "/images/Japanese swords in Japanese Manga & Anime 日本刀とポップカルチャー.png"
             },
             {
-              "name": "Anime & Shinto in Japan 日本のアニメと神道",
+              "name": "Anime & Shinto in Japan",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vSdDdQzI63K8Wyr8n_tlSnr-53LdhQCyyFEpSLrfwWexnEBpFIMpFvz44ns2lUjM-7mHqZNout51iF8/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/demonslayer-3.jpg"
+              "image": "/images/Anime & Shinto in Japan 日本のアニメと神道.png"
             },
             {
               "name": "Japanese modern history with Demon Slayer",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRSHM9TrRkT70T1FM1LtidLCvpWTlrYJEtNnbyChWXD6Jhhs2Cr5-dLM5g1bqwwaQ7AhxbbKePZd2Fe/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/demonslayer-4.jpg"
+              "image": "/images/Japanese modern history with Demon Slayer.png"
             },
             {
               "name": "The Evolution of '鬼 Oni' :  From Japanese Folklore to Demon Slayer",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vQwu3JN4hs3wCX7lvauxD444OV5PLpKp-8TTFYaRZ0tELzDd49ADahJou_AxJTJMrDLcv12v7h_u6RT/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/demonslayer-5.jpg"
+              "image": "/images/The Evolution of '鬼 Oni' _  From Japanese Folklore to Demon Slayer .png"
             },
             {
-              "name": "Total Concentration Breathing   全集中の呼吸  (Zen shūchū no kokyū)",
+              "name": "Total Concentration Breathing",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vT_WITCGlhI2i40_HFxFiF0ynAfgGgq3SVMUK57VuUZMAF6KZMEQy7OkMNZmJ-QymqUr0IwQc9Sxqkj/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/demonslayer-6.jpg"
+              "image": "/images/Total Concentration Breathing   全集中の呼吸 　(Zen shūchū no kokyū).png"
             }
           ]
         },
         {
           "name": "Other Anime",
-          "image": "/images/otheranime-category.jpg",
+          "image": "/images/Japanese Anime.pptx.png",
           "items": [
             {
               "name": "Japanese Anime",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTqUnq1cujJ5R16l8mXB1TEAaSfxt8HtopUjk-2_5hVXWIKJFpQBiN7IuUJjpL7YQ/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/otheranime-1.jpg"
+              "image": "/images/Japanese Anime.pptx.png"
             },
             {
               "name": "Pokemon's Japanese & English names",
               "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vRfTRncF3RMN9S34MgIK92tBlCB8Pc-J-Ka4C03k-awLL4XIkkxn5VW4jz1e4wm7g9cgo5Nu9y5Ikts/embed?start=false&loop=false&delayms=3000&rm=minimal",
-              "image": "/images/otheranime-2.jpg"
+              "image": "/images/Pokemon's Japanese ＆ English names.png"
             }
           ]
         }

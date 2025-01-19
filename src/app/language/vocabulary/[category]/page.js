@@ -13,7 +13,7 @@ export default function CategoryPage({ params: paramsPromise }) {
   const router = useRouter();
 
   const categoryIndex = data.findIndex(
-    (cat) => cat.name.toLowerCase() === category.toLowerCase()
+    (cat) => cat.name.toLowerCase() === category.toLowerCase().replaceAll("%20", " ").replaceAll("-", " ")  
   );
   const selectedCategory = data[categoryIndex];
 
@@ -30,7 +30,7 @@ export default function CategoryPage({ params: paramsPromise }) {
   }
 
   return (
-    <main className="p-8">
+    <main className="px-4 md:px-8 lg:px-16 py-8">
       <h1 className="text-3xl font-bold mb-6 text-center">{selectedCategory.name}</h1>
       <CategoryNavigator data={data} currentCategory={selectedCategory.name} baseURL="/language/vocabulary" />
 
@@ -44,6 +44,7 @@ export default function CategoryPage({ params: paramsPromise }) {
             backText={item.name}
             alt={item.name}
             isReset={resetFlag}
+            audioSrc={item.audio}
           />
         ))}
       </div>

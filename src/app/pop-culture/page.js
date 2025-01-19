@@ -21,7 +21,7 @@ export default function PopCulturePage() {
   );
 
   return (
-    <main className="p-8">
+    <main className="px-4 md:px-8 lg:px-16 py-8">
       <h1 className="text-3xl font-bold mb-6">
         {popCultureSection.name.replace("-", " ")}
       </h1>
@@ -42,8 +42,8 @@ export default function PopCulturePage() {
             key={category.name}
             href={`/pop-culture/${category.name
               .toLowerCase()
-              .replace(" & ", "-")
-              .replace(" ", "-")}`}
+              .replaceAll(" & ", "-")
+              .replaceAll(" ", "-")}`}
             passHref
           >
             <Card

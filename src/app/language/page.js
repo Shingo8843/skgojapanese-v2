@@ -10,7 +10,7 @@ export default function Language() {
   const currentSection = sections[currentSectionIndex];
 
   return (
-    <main className="p-8">
+    <main className="px-4 md:px-8 lg:px-16 py-8">
       <h1 className="text-3xl font-bold mb-4">{currentSection.name}</h1>
       <p className="mb-6">{currentSection.description}</p>
       <CategoryNavigator
