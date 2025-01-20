@@ -13,16 +13,23 @@ export default function Card({
   audioSrc = null,
 }) {
   const Wrapper = href ? Link : "div"; // Use Link for navigation, div for actions
-  const wrapperProps = href
-    ? { href, className: `block ${className}` }
-    : { onClick, role: "button", className: `block cursor-pointer ${className}` };
+
   const audioRef = useRef(null);
-  
+
   const playAudio = () => {
     if (audioRef.current) {
       audioRef.current.play();
     }
   };
+  const handleCardClick = () => {
+    if (audioSrc) {
+      playAudio();
+    }
+    onClick();
+  };
+  const wrapperProps = href
+    ? { href, className: `block ${className}` }
+    : { onClick:handleCardClick, role: "button", className: `block cursor-pointer ${className}` };
   return (
     <Wrapper
       {...wrapperProps}

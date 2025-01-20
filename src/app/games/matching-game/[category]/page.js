@@ -6,6 +6,7 @@ import Modal from "@/components/Modal";
 import Card from "@/components/Card";
 import data from "@/data/vocabulary.json";
 import CategoryNavigator from "@/components/CategoryNavigator";
+import Image from "next/image";
 // Shuffle function
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
@@ -32,8 +33,8 @@ export default function CategoryPage({ params: paramsPromise }) {
       const allCards = selectedCategory.items
         .slice(0, setCount)
         .flatMap((item) => [
-          { id: `${item.name}-1`, img: item.img1, name: item.name },
-          { id: `${item.name}-2`, img: item.img2, name: item.name },
+          { id: `${item.name}-1`, img: item.img1, name: item.name, audio: item.audio },
+          { id: `${item.name}-2`, img: item.img2, name: item.name, audio: item.audio },
         ]);
       setCards(shuffleArray(allCards)); // Shuffle cards on reset
       setMatchedCards([]);
@@ -46,21 +47,23 @@ export default function CategoryPage({ params: paramsPromise }) {
   }, [resetGame]);
 
   const handleCardClick = (id) => {
+    // Prevent more than two cards being selected or selecting matched cards
     if (selectedCards.length === 2 || matchedCards.includes(id)) return;
-
+  
     const currentCard = cards.find((card) => card.id === id);
     const newSelectedCards = [...selectedCards, currentCard];
-
+  
     setSelectedCards(newSelectedCards);
-
+  
     if (newSelectedCards.length === 2) {
       const [first, second] = newSelectedCards;
-
-      if (first.name === second.name) {
+  
+      // Check if the two selected cards have the same name but are not the same card
+      if (first.name === second.name && first.id !== second.id) {
         // Match found
         setMatchedCards((prev) => [...prev, first.id, second.id]);
         setSelectedCards([]);
-
+  
         // Check if all cards are matched
         if (matchedCards.length + 2 === cards.length) {
           setTimeout(() => setShowModal(true), 200); // Small delay before showing the modal
@@ -71,6 +74,7 @@ export default function CategoryPage({ params: paramsPromise }) {
       }
     }
   };
+  
 
   const handleModalClose = () => {
     resetGame();
@@ -118,6 +122,7 @@ export default function CategoryPage({ params: paramsPromise }) {
             description=""
             image={card.img}
             onClick={() => handleCardClick(card.id)}
+            audioSrc={card.audio}
             className={`${
               selectedCards.some((selected) => selected.id === card.id)
                 ? "border-4 border-yellow-400"
@@ -140,7 +145,17 @@ export default function CategoryPage({ params: paramsPromise }) {
         <Modal onClose={handleModalClose}>
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4">Congratulations!</h2>
-            <p className="text-lg">You matched all the cards!</p>
+            <p className="text-lg mb-4">You matched all the cards!</p>
+            <div className="flex justify-center">
+              <Image
+                src="/images/よくできました.png"
+                alt="Celebration"
+                className="w-full max-w-sm"
+                width={0}
+                height={0}
+                sizes="100vw"
+              />
+            </div>
           </div>
         </Modal>
       )}

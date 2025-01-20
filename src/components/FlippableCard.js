@@ -12,6 +12,8 @@ export default function FlippableCard({
   isFlipped,
   onFlip,
   audioSrc = null,
+  mem=false,
+
 }) {
   const [flipped, setFlipped] = useState(false);
 
@@ -50,23 +52,31 @@ export default function FlippableCard({
           flipped ? "hidden" : "flex"
         }`}
       >
-        <Image
+        {
+          mem ? 
+          <p className="text-xl font-bold">{backText}</p>
+          : <Image
           src={frontImage}
           alt={alt || "Card Front"}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-contain rounded-lg"
           style={{ aspectRatio: "1 / 1" }} // Maintain square aspect ratio
-        />
+        /> 
+        }
       </div>
 
       {/* Back of the card */}
+
       <div
         className={`absolute inset-0 bg-gray-200 flex items-center justify-center rounded-lg backface-hidden ${
           flipped ? "block" : "hidden"
         }`}
       >
-        <p className="text-xl font-bold">{backText}</p>
+        {mem ? 
+          <Image src={frontImage} alt={alt || "Card Back"} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain rounded-lg" style={{ aspectRatio: "1 / 1" }} />
+          : <p className="text-xl font-bold">{backText}</p>
+          }
       </div>
 
       {/* Hidden Audio Element */}
