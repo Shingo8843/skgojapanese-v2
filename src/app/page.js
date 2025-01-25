@@ -24,7 +24,7 @@ export default function LandingPage() {
         ))}
       </div>
       <div className="mt-8">
-      <h2 className="text-6xl text-center" id="topicOfMonth">
+      <h2 className="text-6xl text-center pt-16" id="topicOfMonth">
         <span>Topic of the Month</span>
       </h2>
       <div className="w-full">

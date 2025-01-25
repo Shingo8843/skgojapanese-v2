@@ -10,6 +10,10 @@ export default function Navigation() {
     setIsMenuOpen((prev) => !prev);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Language", href: "/language" },
@@ -47,11 +51,17 @@ export default function Navigation() {
 
       {/* Modal for Mobile Navigation */}
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
-          <div className="bg-white rounded-lg w-3/4 max-w-sm p-6">
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center"
+          onClick={closeMenu} // Close modal when clicking outside
+        >
+          <div
+            className="bg-white rounded-lg w-3/4 max-w-sm p-6 relative"
+            onClick={(e) => e.stopPropagation()} // Prevent close on modal content click
+          >
             <button
               className="absolute top-4 right-4 text-black"
-              onClick={toggleMenu}
+              onClick={closeMenu}
               aria-label="Close Menu"
             >
               ✕
@@ -62,7 +72,7 @@ export default function Navigation() {
                   <Link
                     href={link.href}
                     className="text-blue-500 font-bold hover:underline"
-                    onClick={toggleMenu}
+                    onClick={closeMenu}
                   >
                     {link.name}
                   </Link>
