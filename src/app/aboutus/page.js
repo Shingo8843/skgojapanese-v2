@@ -124,7 +124,7 @@ export default function LandingPage() {
                       <div
                         className="bg-cover bg-center rounded aspect-[3/4] w-1/3"
                         style={{
-                          backgroundImage: "url('/images/shingo.jpeg')",
+                          backgroundImage: "url('/images/shingo.JPEG')",
                         }}
                       ></div>
                       <div>
