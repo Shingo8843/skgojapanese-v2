@@ -35,7 +35,7 @@ export default function Card({
       {...wrapperProps}
       className={`relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 cursor-pointer rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 ${className}`}
     >
-      <div className="relative w-full h-full overflow-hidden rounded-md">
+      <div className="relative w-full h-full overflow-hidden rounded-md bg-gray-100 hover:scale-105 transition-transform duration-300 ease-in-out">
         {image && (
           <Image
             src={image}

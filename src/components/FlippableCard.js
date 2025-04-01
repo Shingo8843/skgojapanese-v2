@@ -48,9 +48,9 @@ export default function FlippableCard({
 
       {/* Front of the card */}
       <div
-        className={`absolute inset-0 bg-white backface-hidden rounded-lg ${
+        className={`absolute inset-0  backface-hidden rounded-lg ${
           flipped ? "hidden" : "flex"
-        }`}
+        } bg-slate-500`}
       >
         {
           mem ? 

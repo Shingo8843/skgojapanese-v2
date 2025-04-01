@@ -24,7 +24,11 @@ export default function Navigation() {
 
   return (
     <header className="p-4 bg-blue-500 text-white flex justify-between items-center">
-      <h1 className="text-2xl font-bold">Japanese Learning</h1>
+      {/* <h1 className="text-2xl font-bold">Japanese Learning</h1>
+       */}
+       <Link href="/" className="text-2xl font-bold text-white hover:text-blue-200 transition-colors duration-300">
+        SKGOJapanese
+      </Link>
       {/* Desktop Navigation */}
       <nav className="hidden lg:block">
         <ul className="flex space-x-4">
