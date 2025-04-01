@@ -1,9 +1,9 @@
-import Card from '@/components/Card';
-import sections from '@/data/sections';
+import Card from "@/components/Card";
+import sections from "@/data/sections";
 
 export default function LandingPage() {
   return (
-    <main className="py-8 px-4 md:px-8 lg:px-16" >
+    <main className="py-8 px-4 md:px-8 lg:px-16">
       {/* Main Content */}
       <h2 className="text-6xl text-center" id="Index">
         <span>INDEX</span>
@@ -24,20 +24,20 @@ export default function LandingPage() {
         ))}
       </div>
       <div className="mt-8">
-      <h2 className="text-6xl text-center pt-16" id="topicOfMonth">
-        <span>Topic of the Month</span>
-      </h2>
-      <div className="w-full">
+        <h2 className="text-6xl text-center pt-16" id="topicOfMonth">
+          <span>Topic of the Month</span>
+        </h2>
+        <div className="w-full">
           <div className="google-slides-container">
             <iframe
-                src="https://docs.google.com/presentation/d/e/2PACX-1vTZGxWFfJAvxhWG7FXsJF_eFFAQ-9naUmAyng0T_FcYjgcqwWqO0RJFxvd2qc0BnokuctKK0vfrLh_c/embed?start=false&loop=false&delayms=3000&rm=minimal"
-                frameBorder="0"
-                width="100%"
-                height="569"
-                allowFullScreen
-                className="rounded-lg shadow-md"
+              src="https://view.officeapps.live.com/op/embed.aspx?src=https://skgojapanese.com/powerpoint/都心と郊外の比較.pptx"
+              frameBorder="0"
+              width="100%"
+              height="569"
+              allowFullScreen
+              className="rounded-lg shadow-md"
             ></iframe>
-            </div>
+          </div>
         </div>
       </div>
     </main>
