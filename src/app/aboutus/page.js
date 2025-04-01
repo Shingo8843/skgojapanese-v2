@@ -104,8 +104,9 @@ export default function LandingPage() {
                     <div className="bg-opacity-50 bg-gray-600 p-4 mt-6 rounded text-white">
                       <p className="text-lg">
                         Knowing just one word can literally change everything.
-                        It may sound silly, but we&apos;ve all had the experience of
-                        making a friend just by saying &quot;hello.&quot;
+                        It may sound silly, but we&apos;ve all had the
+                        experience of making a friend just by saying
+                        &quot;hello.&quot;
                       </p>
                       <p className="text-lg mt-4">
                         たった一つの言葉を知るだけで、文字通り全てが変わる。バカバカしいと思うかもしれませんが、&quot;こんにちは&quot;と挨拶しただけで友達ができたという経験は、誰にでもあると思うんです。
@@ -123,7 +124,7 @@ export default function LandingPage() {
                       <div
                         className="bg-cover bg-center rounded aspect-[3/4] w-1/3"
                         style={{
-                          backgroundImage: "url('/images/Shingo.jpeg')",
+                          backgroundImage: "url('/images/shingo.jpeg')",
                         }}
                       ></div>
                       <div>
@@ -171,10 +172,12 @@ export default function LandingPage() {
                       ></div>
                       <div>
                         <h3 className="text-2xl font-bold">
-                          Keigo Morita - Website Manager / Student Volunteer Organization Leader / 守田圭吾
+                          Keigo Morita - Website Manager / Student Volunteer
+                          Organization Leader / 守田圭吾
                         </h3>
                         <p className="mt-2">
-                          San Diego State University, Computer Science Major, Weber Honors College
+                          San Diego State University, Computer Science Major,
+                          Weber Honors College
                           <br />
                           サンディエゴ州立大学コンピューターサイエンス学部専攻、ウェバーオナーズカレッジ
                         </p>
@@ -192,7 +195,7 @@ export default function LandingPage() {
                           </a>
                           <br />
                           <a
-                            href="https://shingomorita.com/"
+                            href="https://keigo.skgojapanese.com/"
                             className="text-blue-600 hover:underline"
                           >
                             Portfolio
@@ -202,50 +205,58 @@ export default function LandingPage() {
                     </div>
                   </div>
                   <div className="container mx-auto pt-16">
-                      <h2 className="text-3xl md:text-4xl font-bold">Project Members / メンバー</h2>
-                      <div className="mt-8 grid md:grid-cols-1 lg:grid-cols-2 gap-8">
-                        {members.map((member, index) => (
-                          <div key={index} className="flex gap-6">
-                            {/* <div
+                    <h2 className="text-3xl md:text-4xl font-bold">
+                      Project Members / メンバー
+                    </h2>
+                    <div className="mt-8 grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+                      {members.map((member, index) => (
+                        <div key={index} className="flex gap-6">
+                          {/* <div
                               className="bg-cover bg-center rounded aspect-[4/5] w-1/3"
                               style={{ backgroundImage: `url('${member.image}')` }}
                             ></div> */}
-                            <Image src={member.image} width={300} height={400} className="rounded" alt={member.name} />
-                            <div>
-                              <h3 className="text-2xl font-bold">
-                                {member.name} - {member.role}
-                              </h3>
-                              {member.nameJP && (
-                                <h4 className="text-lg mt-1">
-                                  {member.nameJP} - {member.roleJP}
-                                </h4>
-                              )}
-                              {member.education && (
-                                <div className="mt-4">
-                                  {member.education.map((edu, eduIndex) => (
-                                    <p key={eduIndex} className="text-sm">
-                                      {edu}
-                                    </p>
-                                  ))}
-                                </div>
-                              )}
-                              {member.links && (
-                                <div className="mt-4">
-                                  {member.links.map((link, linkIndex) => (
-                                    <a
-                                      key={linkIndex}
-                                      href={link.url}
-                                      className="text-blue-600 hover:underline block"
-                                    >
-                                      {link.label}
-                                    </a>
-                                  ))}
-                                </div>
-                              )}
-                            </div>
+                          <Image
+                            src={member.image}
+                            width={300}
+                            height={400}
+                            className="rounded"
+                            alt={member.name}
+                          />
+                          <div>
+                            <h3 className="text-2xl font-bold">
+                              {member.name} - {member.role}
+                            </h3>
+                            {member.nameJP && (
+                              <h4 className="text-lg mt-1">
+                                {member.nameJP} - {member.roleJP}
+                              </h4>
+                            )}
+                            {member.education && (
+                              <div className="mt-4">
+                                {member.education.map((edu, eduIndex) => (
+                                  <p key={eduIndex} className="text-sm">
+                                    {edu}
+                                  </p>
+                                ))}
+                              </div>
+                            )}
+                            {member.links && (
+                              <div className="mt-4">
+                                {member.links.map((link, linkIndex) => (
+                                  <a
+                                    key={linkIndex}
+                                    href={link.url}
+                                    className="text-blue-600 hover:underline block"
+                                  >
+                                    {link.label}
+                                  </a>
+                                ))}
+                              </div>
+                            )}
                           </div>
-                        ))}
-                      </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </section>
