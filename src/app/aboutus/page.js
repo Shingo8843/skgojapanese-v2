@@ -208,9 +208,6 @@ export default function LandingPage() {
                     <h2 className="text-3xl md:text-4xl font-bold">
                       Project Members / メンバー
                     </h2>
-                    <h3 className="text-xl md:text-2xl mt-4 text-gray-600">
-                      GARDENA VALLEY JAPANESE CULTURAL INSTITUTE ガーデナ平原日本文化会館
-                    </h3>
                     <div className="mt-8 grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                       {members.map((member, index) => (
                         <div key={index} className="flex gap-6">
@@ -310,7 +307,7 @@ export default function LandingPage() {
 
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
-            For the Japanese Community Around the World / <break/> 世界中の日本語学習者のために
+            For the Japanese Community Around the World / 世界中の日本語学習者のために
           </h2>
           <p className="mt-4 text-lg">
             As a website founded by Japanese students, we are committed to supporting and enlivening

@@ -25,7 +25,8 @@ export default function Footer() {
 
         {/* Copyright Text */}
         <div className="text-sm">
-          ©2022 Shingo Morita & Keigo Morita. All rights reserved. Icon made by
+          ©{ new Date().getFullYear() }{" "}
+           Shingo Morita & Keigo Morita. All rights reserved. Icon made by
           Lutfix, Freepik, BomSymbols, Nikita Golubev, Smarshicons, Eucalyp,
           monkik, surang, Ruslan Babkin, Flat Icons, geotatah, max.icons from{" "}
           <a
