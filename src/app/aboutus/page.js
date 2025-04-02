@@ -267,6 +267,93 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      <section className="mt-16 space-y-16">
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold">Map for an Adventure / 冒険の地図</h2>
+          <p className="mt-4 text-lg">
+            Just as we need a map for an adventure, we need a map to learn a language.
+            Learning a language is like having an adventure. Difficult but fun.
+            Our website is a map to Japanese culture.
+          </p>
+          <p className="mt-2 text-lg">
+            冒険に地図が必要なように、語学を学ぶためにも地図が必要だ。言語を学ぶことは、冒険をするようなものです。
+            困難だけれども楽しい。私たちのウェブサイトは、海外で学ぶ生徒たちが日本につながるための地図です。
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            A Resource to Support Learning / 学習リソースが学びを支える
+          </h2>
+          <p className="mt-4 text-lg">
+            Learning requires not only classroom experiences (online and face-to-face classes),
+            but also learning resources. Our goal is not to help you speak Japanese just from this website
+            but to provide resources that can be accessed from anywhere.
+          </p>
+          <p className="mt-2 text-lg">
+            学習には、教室での体験（オンライン授業や対面授業）だけでなく、自由に利用できる学習リソースが必要です。
+            日本語が話せるようになりたいすべての人に、どこからでもアクセスできるリソースを提供することを目指します。
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold">Enjoy Learning Japanese / 日本語学習を楽しむ</h2>
+          <p className="mt-4 text-lg">
+            Provide content that will help you enjoy and love Japanese culture and language.
+            We will make content approachable so that it will be the first step for you to start learning Japanese.
+          </p>
+          <p className="mt-2 text-lg">
+            日本の文化や日本語が好きになれるようなコンテンツの提供をします。
+            日本語を学び始める最初の一歩になるような、親しみやすいコンテンツにしていきます。
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            For the Japanese Community Around the World / <break/> 世界中の日本語学習者のために
+          </h2>
+          <p className="mt-4 text-lg">
+            As a website founded by Japanese students, we are committed to supporting and enlivening
+            the study of the Japanese language and culture in our community and around the world.
+          </p>
+          <p className="mt-2 text-lg">
+            私たちは、日本人学生によって設立されたウェブサイトとして、
+            地域社会と世界における日本語と日本文化の学習を支援し、盛り上げていくことを約束します。
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold">Special Thanks / スペシャルサンクス</h2>
+          <p className="mt-4 text-lg">
+            the Gardena Valley Japanese Cultural Institute (GVJCI)
+          </p>
+          <p className="text-lg">
+            ガーデナ平原日本文化会館(GVJCI)
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8 mt-6">
+            <div>
+              <p className="text-lg">
+                We began our work as volunteers to support teachers transitioning to online lectures
+                at the GVJCI Japanese Language School after the pandemic. We received a lot of advice
+                and support from teachers in creating this website. We would like to thank everyone who supported us.
+              </p>
+              <p className="text-lg mt-2">
+                私たちは、パンデミック後にGVJCI日本語学校でオンライン授業のサポートボランティアとして活動を開始しました。
+                このウェブサイト作成にあたって、先生方から沢山のご助言とご支援をいただきました。
+                ご支援いただいたすべての方々に感謝申し上げます。
+              </p>
+            </div>
+            <div
+              className="bg-cover bg-center rounded"
+              style={{
+                backgroundImage: "url('/images/JCI Group Photo.jpg')",
+                aspectRatio: "4 / 3",
+              }}
+            ></div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
