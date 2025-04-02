@@ -314,6 +314,11 @@
         "image": "/images/temple.png",
         "items": [
           {
+            "name": "大正ロマン Taisho Roman",
+            "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vSRAfUgw58ZebU1CF2M3OO8wNch_uBh_w3OENqjE80DKzjDyGOox5Vx9-gv4T1dtTVd01f1grVzye5l/embed?rm=minimal",
+            "image": "/images/TaishoRoman.png"
+          },
+          {
             "name": "屋台について What is Yatai?",
             "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vSPCvKSGxc7gLhRfxGu2q50j1-g9gIew2s7GJppcN2Ei7h4F_aG4uQXozZqGuTC1es2bOxJYg--UaG7/embed?rm=minimal",
             "image": "/images/屋台について_ HP版.png"
@@ -381,6 +386,11 @@
         "name": "Daily Life",
         "image": "/images/dailylife.png",
         "items": [
+          {
+            "name": "TV Commercial in Japan",
+            "embedLink": "https://docs.google.com/presentation/d/e/2PACX-1vTjS1pc66thNGfFDPomqLJwPgZ_sPcMxot3vmu3Uum2HnBslaX3Z8s2xkX5cQIoUyWjzgBKvvR40bZW/embed?rm=minimal",
+            "image": "/images/TVCommercials.png" 
+          },
           {
             "name": "都心と郊外の比較",
             "embedLink": "https://view.officeapps.live.com/op/embed.aspx?src=https://skgojapanese.com/powerpoint/都心と郊外の比較.pptx",
