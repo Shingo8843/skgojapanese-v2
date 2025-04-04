@@ -112,7 +112,7 @@ export default function LandingPage() {
       <section className="space-y-16">
         {[
           {
-            name: "Shingo Morita",
+            name: "Shingo Nagano",
             role: "Project Leader / 守田真悟",
             image: "/images/shingo.JPEG",
             education: [

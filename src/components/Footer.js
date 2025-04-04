@@ -25,10 +25,10 @@ export default function Footer() {
 
         {/* Copyright Text */}
         <div className="text-sm">
-          ©{ new Date().getFullYear() }{" "}
-           Shingo Morita & Keigo Morita. All rights reserved. Icon made by
-          Lutfix, Freepik, BomSymbols, Nikita Golubev, Smarshicons, Eucalyp,
-          monkik, surang, Ruslan Babkin, Flat Icons, geotatah, max.icons from{" "}
+          ©{new Date().getFullYear()} Shingo Nagano & Keigo Morita. All rights
+          reserved. Icon made by Lutfix, Freepik, BomSymbols, Nikita Golubev,
+          Smarshicons, Eucalyp, monkik, surang, Ruslan Babkin, Flat Icons,
+          geotatah, max.icons from{" "}
           <a
             href="https://www.flaticon.com"
             target="_blank"
@@ -37,9 +37,10 @@ export default function Footer() {
           >
             www.flaticon.com
           </a>{" "}
-          ©2022年 日本語サイアム 教材ダウンロード. All Rights Reserved. Voice material by
-          &quot;Amitaro&apos;s Voice Material Studio&quot; Illustration Material By 三日月アルペジオ
-          © 2005-2022 STUDIO GHIBLI Inc. Design: HTML5 UP.
+          ©2022年 日本語サイアム 教材ダウンロード. All Rights Reserved. Voice
+          material by &quot;Amitaro&apos;s Voice Material Studio&quot;
+          Illustration Material By 三日月アルペジオ © 2005-2022 STUDIO GHIBLI
+          Inc. Design: HTML5 UP.
         </div>
       </div>
     </footer>
