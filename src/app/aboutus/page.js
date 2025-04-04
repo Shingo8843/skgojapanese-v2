@@ -113,7 +113,7 @@ export default function LandingPage() {
         {[
           {
             name: "Shingo Nagano",
-            role: "Project Leader / 守田真悟",
+            role: "Project Leader / 長野真悟",
             image: "/images/shingo.JPEG",
             education: [
               "University of Southern California, MS in Computer Science",
