@@ -123,7 +123,7 @@ export default function LandingPage() {
             links: [
               {
                 label: "LinkedIn",
-                url: "https://www.linkedin.com/in/smorita/",
+                url: "https://www.linkedin.com/in/shingon/",
               },
               { label: "Portfolio", url: "https://shingomorita.com/" },
             ],
