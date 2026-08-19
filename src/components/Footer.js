@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CopyrightYear from "./CopyrightYear";
 
 export default function Footer() {
   return (
@@ -25,7 +26,7 @@ export default function Footer() {
 
         {/* Copyright Text */}
         <div className="text-sm">
-          ©{new Date().getFullYear()} Shingo Nagano & Keigo Morita. All rights
+          ©<CopyrightYear /> Shingo Nagano & Keigo Morita. All rights
           reserved. Icon made by Lutfix, Freepik, BomSymbols, Nikita Golubev,
           Smarshicons, Eucalyp, monkik, surang, Ruslan Babkin, Flat Icons,
           geotatah, max.icons from{" "}
