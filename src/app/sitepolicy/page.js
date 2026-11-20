@@ -150,7 +150,7 @@ export default function SitePolicy() {
                             <span>サイトポリシー</span>
                         </h2>
                         <p className="mb-6">
-                            「Japanese learning for students」ウェブサイト(以下当サイトという)は、Shingo Morita & Keigo Moritaにより以下の利用規約に基づいて運営されています。
+                            「Japanese learning for students」ウェブサイト(以下当サイトという)は、Shingo Nagano & Keigo Moritaにより以下の利用規約に基づいて運営されています。
                             当サイトを利用される皆様におかれましては、当サイトにアクセスしてこれを利用した場合は、このサイトポリシーに同意したものとみなします。
                         </p>
 
@@ -158,7 +158,7 @@ export default function SitePolicy() {
                             <span>著作権に関して</span>
                         </h2>
                         <p className="mb-6">
-                            (1) 当サイト上の掲載情報の著作権は、特に記載されているもの以外は、全てShingo Morita & Keigo Moritaに帰属しています。
+                            (1) 当サイト上の掲載情報の著作権は、特に記載されているもの以外は、全てShingo Nagano & Keigo Moritaに帰属しています。
                             <br />
                             (2) 当サイト上の掲載情報の全部または一部について、私的使用以外の目的で転載、複製することはできません。
                             <br />

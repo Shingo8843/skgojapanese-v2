@@ -111,7 +111,18 @@ export default function LandingPage() {
       {/* Leaders */}
       <section className="space-y-16">
         {[
-          ,
+          {
+            name: "Keigo Morita",
+            role: "Project Leader / Co-Founder / 守田圭吾",
+            image: "/images/Keigo.jpg",
+            education: [
+              "San Diego State University, CS Major, Weber Honors College",
+            ],
+            links: [
+              { label: "LinkedIn", url: "https://www.linkedin.com/in/keigom/" },
+              { label: "Portfolio", url: "https://keigo.skgojapanese.com/" },
+            ],
+          },
           {
             name: "Shingo Nagano",
             role: "Co-Founder / 長野真悟",
@@ -126,19 +137,6 @@ export default function LandingPage() {
                 url: "https://www.linkedin.com/in/shingon/",
               },
               { label: "Portfolio", url: "https://shingomorita.com/" },
-            ],
-          },
-          {
-            name: "Keigo Morita",
-            role: "Project Leader / Co-Founder / 守田圭吾",
-            image: "/images/Keigo.jpg",
-            education: [
-              "San Diego State University, CS Major, Weber Honors College",
-              "Patrick Henry High School",
-            ],
-            links: [
-              { label: "LinkedIn", url: "https://www.linkedin.com/in/keigom/" },
-              { label: "Portfolio", url: "https://keigo.skgojapanese.com/" },
             ],
           }
         ].map((person, idx) => (
