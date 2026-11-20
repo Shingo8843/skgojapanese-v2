@@ -30,7 +30,7 @@ export default function SitePolicy() {
                             </h2>
                             <p className="mb-6">
                                 The Japanese learning for students is operated by Shingo
-                                Morita & Keigo Morita based on the following rules of use.
+                                Nagano & Keigo Morita based on the following rules of use.
                                 People who access and use this site are deemed to agree with
                                 this site policy.
                             </p>
